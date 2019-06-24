@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/PracticeSpace.unity
+    guid: f1ffa18f170332840a4225ceec1c8e30
+  - enabled: 1
+    path: Assets/Scenes/QuizScene.unity
+    guid: 15d1b26c52c7686419fd66c1256ee9c7
   m_configObjects: {}
