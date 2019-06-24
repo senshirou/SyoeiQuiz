@@ -58,6 +58,7 @@ public class QuizPrototype : MonoBehaviour {
 		 //コンソールでweightの数字を出力
 		 Debug.Log(weight);
 
+		//stage1()を実行
 		 stage1();
 
 		
@@ -161,6 +162,7 @@ public class QuizPrototype : MonoBehaviour {
 			{
 				//問題が残っていない場合は処理を行わない
 				Debug.Log("NoQuestion List");
+				
 				
 				return;
 			}
