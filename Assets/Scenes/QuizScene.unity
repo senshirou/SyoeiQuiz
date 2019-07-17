@@ -489,6 +489,10 @@ MonoBehaviour:
   answer4: {fileID: 965723404}
   quiz: {fileID: 785864825}
   AnswerA: {fileID: 775843255}
+  Quiz2: "\u5171\u6676\u534A\u7530"
+  Quiz3: "\xB10.1"
+  Quiz5: "\xB10.1"
+  Quiz6: "\xB10.15"
 --- !u!1 &775843253
 GameObject:
   m_ObjectHideFlags: 0
@@ -684,6 +688,8 @@ MonoBehaviour:
   - Quiz2
   - Quiz3
   - Quiz4
+  - Quiz5
+  - Quiz6
   weight: 0
   Questionlabel: {fileID: 1686096536}
   AnswerA: {fileID: 775843255}
@@ -857,6 +863,10 @@ MonoBehaviour:
   answer4: {fileID: 965723404}
   quiz: {fileID: 785864825}
   AnswerA: {fileID: 775843255}
+  Quiz2: "\u5171\u6676\u534A\u7530"
+  Quiz3: "\xB10.1"
+  Quiz5: "\xB10.1"
+  Quiz6: "\xB10.15"
 --- !u!1 &962532478
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,6 +1124,10 @@ MonoBehaviour:
   answer4: {fileID: 965723404}
   quiz: {fileID: 785864825}
   AnswerA: {fileID: 775843255}
+  Quiz2: "\u5171\u6676\u534A\u7530"
+  Quiz3: "\xB10.1"
+  Quiz5: "\xB10.1"
+  Quiz6: "\xB10.15"
 --- !u!1001 &1140454497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1970,6 +1984,10 @@ MonoBehaviour:
   answer4: {fileID: 965723404}
   quiz: {fileID: 785864825}
   AnswerA: {fileID: 775843255}
+  Quiz2: "\u5171\u6676\u534A\u7530"
+  Quiz3: "\xB10.1"
+  Quiz5: "\xB10.1"
+  Quiz6: "\xB10.15"
 --- !u!1001 &2077410555
 PrefabInstance:
   m_ObjectHideFlags: 0
