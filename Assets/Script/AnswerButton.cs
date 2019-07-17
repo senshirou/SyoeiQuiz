@@ -18,11 +18,18 @@ public class AnswerButton : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI AnswerA;
 
-    
+    public string Quiz2 = "共晶半田";
+    public string Quiz3 = "±0.1";
+    public string Quiz5 = "±0.1";
+    public string Quiz6 = "±0.15";
 
-    
 
-    
+
+
+
+
+
+
 
     //正解の配列を宣言
     string[] collect ;
@@ -38,7 +45,7 @@ public class AnswerButton : MonoBehaviour
     {
         float weight = quiz.weight;
         Debug.Log(weight);
-        collect = new string[]{"エッチング →　酸洗　→　フラックス","だめだ","Android",$"{0.2f + weight}mm","共晶半田"} ;
+        collect = new string[]{"エッチング →　酸洗　→　フラックス","だめだ","Android",$"{0.2f + weight}mm", Quiz2 ,Quiz3,Quiz5} ;
     }
 
     
