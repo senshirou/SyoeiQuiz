@@ -489,62 +489,6 @@ MonoBehaviour:
   answer4: {fileID: 965723404}
   quiz: {fileID: 785864825}
   AnswerA: {fileID: 775843255}
-  Quiz1: "\xB10.1"
-  Quiz2: "\u5171\u6676\u534A\u7530"
-  Quiz3: "\xB10.1"
-  Quiz4: "\xB10.15"
-  Quiz5: "\xB10.1"
-  Quiz6: "\xB10.15"
-  Quiz7: "\xB10.15"
-  Quiz8: "30\u03BC\u4EE5\u4E0B"
-  Quiz9: "\xB125\u03BC"
-  Quiz10: "3\u03BC\u4EE5\u4E0A"
-  Quiz11: "0.8\u03BC\u4EE5\u4E0A"
-  Quiz12: "3\u500B"
-  Quiz13: 25%
-  Quiz14: "\xB10.05"
-  Quiz15: "\xB10.05"
-  Quiz16: 0.02
-  Quiz17: "\xB10.2"
-  Quiz18: 0.02
-  Quiz19: 0.05
-  Quiz20: 0.02
-  Quiz21: 0.02
-  Quiz22: "400\u3092\u8D85\u3048\u308B\u3082\u306E\u306F\u3001100\u307E\u3067\u306E\u5BF8\u6CD5\u5897\u52A0\u3054\u3068\u306B0.05\u3092\u52A0\u3048\u308B"
-  Quiz23: "\xB10.1"
-  Quiz24: "\xB10.05"
-  Quiz25: "\xB10.05"
-  Quiz26: 0.1
-  Quiz27: "w:\u6700\u5C0F\u5C0E\u4F53\u9593\u3052\u304D\u3092\u6E80\u8DB3\u3057\u3001\u304B\u3064\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u306E20%\u4EE5\u4E0B\u3002\u2113:\u305D\u306E\u90E8\u5206\u306E\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u3092\u8D85\u3048\u3066\u306F\u306A\u3089\u306A\u3044\u3002\u500B\u6570:\u96A3\u63A5\u3059\u308B\u5C0E\u4F53\u9593\u306B1\u500B\u4EE5\u4E0B\u3001\u304B\u3064100\xD7100mm\u4E2D\u306B2\u500B\u307E\u3067OK"
-  Quiz28: "w:\u4ED5\u4E0A\u304C\u308A\u5E45\u306E25%\u4EE5\u4E0B \u2113:\u4ED5\u4E0A\u304C\u308A\u5C0E\u4F53\u5E45\u4EE5\u4E0B
-    \ \u500B\u6570:X:3y3"
-  Quiz29: "w:\u4ED5\u4E0A\u304C\u308A\u5E45\u306E20%\u4EE5\u4E0B \u2113:\u4ED5\u4E0A\u304C\u308A\u5C0E\u4F53\u5E45\u4EE5\u4E0B
-    \ \u500B\u6570:X=1 Y=2"
-  Quiz30: "w:\u6700\u5C0F\u5C0E\u4F53\u9593\u3052\u304D\u3092\u6E80\u8DB3\u3057\u3001\u304B\u3064\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u306E20%\u4EE5\u4E0B\u3002\u2113:\u305D\u306E\u90E8\u5206\u306E\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u3092\u8D85\u3048\u3066\u306F\u306A\u3089\u306A\u3044\u3002\u500B\u6570:\u96A3\u63A5\u3059\u308B\u5C0E\u4F53\u9593\u306B1\u500B\u4EE5\u4E0B\u3001\u304B\u3064100\xD7100mm\u4E2D\u306B2\u500B\u307E\u3067OK"
-  Quiz31: "w:0.2mm\u4EE5\u4E0B\u3002\u2113:\u305D\u306E\u90E8\u5206\u306E\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u3092\u8D85\u3048\u3066\u306F\u306A\u3089\u306A\u3044\u3002\u500B\u6570:\u96A3\u63A5\u3059\u308B\u5C0E\u4F53\u9593\u306B2\u500B\u4EE5\u4E0B\u3001\u304B\u3064100\xD7100mm\u4E2D\u306B3\u500B\u307E\u3067OK"
-  Quiz32: "\u6B20\u640D\u9762\u7A4D\u306E\u5272\u5408:\u30E9\u30F3\u30C9\u9762\u7A4D\u306E25%\u4EE5\u4E0B
-    \u3001(p):0.05mm\u4EE5\u4E0A\u3001(q):0.15mm\u4EE5\u4E0A"
-  Quiz33: "(a):20%\u3000(b):0.2mm"
-  Quiz34: "\u6570\u5B57\u3092\u30E9\u30F3\u30C0\u30E0\u306B\u3059\u308B\u70BA\u4FDD\u7559\u3002"
-  Quiz35: "\u6570\u5B57\u3092\u30E9\u30F3\u30C0\u30E0\u306B\u3059\u308B\u70BA\u4FDD\u7559\u3002"
-  Quiz36: "0\u500B"
-  Quiz37: "\u53CD\u308A:1.0 \u306D\u3058\u308C:1.5"
-  Quiz38: "8\u03BC"
-  Quiz39: "(a):0.05mm\u4EE5\u4E0A (b)\u7A74\u306E\u63A5\u7DDA\u307E\u3067\u306F\u53EF\u3002"
-  Quiz40: "\u30EC\u30B8\u30B9\u30C8\u306E\u50B7"
-  Quiz41: "\u30A4\u30F3\u30AF\u5857\u5E03\u9762\u306E\u8272\u30E0\u30E9"
-  Quiz42: 0.15
-  Quiz43: 0.8
-  Quiz44: "\u6587\u5B57\u3001\u8A18\u53F7\u306E\u304B\u3059\u308C\u3001\u306B\u3058\u307F\u306F\u3042\u3063\u3066\u306F\u306A\u3089\u306A\u3044"
-  Quiz45: "0.8\u03BC"
-  Quiz46: "\xB10.2"
-  Quiz47: "50\u307E\u3067\u306E\u5BF8\u6CD5\u5897\u52A0\u6BCE\u306B0.1\u52A0\u3048\u308B\u3002"
-  Quiz48: 6.0
-  Quiz49: 0.4
-  Quiz50: "3\u30F6\u6708"
-  Quiz51: "6\u30F6\u6708"
-  Quiz52: "\u30D9\u30FC\u30AD\u30F3\u30B0\u51E6\u7406\u3057\u3066\u518D\u30D5\u30E9\u30C3\u30AF\u30B9"
-  Quiz53: "\u30D9\u30FC\u30AD\u30F3\u30B0\u51E6\u7406"
 --- !u!1 &775843253
 GameObject:
   m_ObjectHideFlags: 0
@@ -735,6 +679,62 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 880a908e33f14ab47b17cf348a9b36fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Quiz1: "\xB10.1"
+  Quiz2: "\xB10.1"
+  Quiz3: "\xB10.08"
+  Quiz4: "\xB10.15"
+  Quiz5: "\xB10.1"
+  Quiz6: "\xB10.1"
+  Quiz7: "\xB10.15"
+  Quiz8: "30\u03BC\u4EE5\u4E0B"
+  Quiz9: "\xB125\u03BC"
+  Quiz10: "3\u03BC\u4EE5\u4E0A"
+  Quiz11: "0.8\u03BC\u4EE5\u4E0A"
+  Quiz12: "3\u500B"
+  Quiz13: 25%
+  Quiz14: "\xB10.05"
+  Quiz15: "\xB10.05"
+  Quiz16: 0.02
+  Quiz17: "\xB10.2"
+  Quiz18: 0.02
+  Quiz19: 0.05
+  Quiz20: 0.02
+  Quiz21: 0.02
+  Quiz22: "400\u3092\u8D85\u3048\u308B\u3082\u306E\u306F\u3001100\u307E\u3067\u306E\u5BF8\u6CD5\u5897\u52A0\u3054\u3068\u306B0.05\u3092\u52A0\u3048\u308B"
+  Quiz23: "\xB10.1"
+  Quiz24: "\xB10.05"
+  Quiz25: "\xB10.05"
+  Quiz26: 0.1
+  Quiz27: "w:\u6700\u5C0F\u5C0E\u4F53\u9593\u3052\u304D\u3092\u6E80\u8DB3\u3057\u3001\u304B\u3064\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u306E20%\u4EE5\u4E0B\u3002\u2113:\u305D\u306E\u90E8\u5206\u306E\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u3092\u8D85\u3048\u3066\u306F\u306A\u3089\u306A\u3044\u3002\u500B\u6570:\u96A3\u63A5\u3059\u308B\u5C0E\u4F53\u9593\u306B1\u500B\u4EE5\u4E0B\u3001\u304B\u3064100\xD7100mm\u4E2D\u306B2\u500B\u307E\u3067OK"
+  Quiz28: "w:\u4ED5\u4E0A\u304C\u308A\u5E45\u306E25%\u4EE5\u4E0B \u2113:\u4ED5\u4E0A\u304C\u308A\u5C0E\u4F53\u5E45\u4EE5\u4E0B
+    \ \u500B\u6570:X:3y3"
+  Quiz29: "w:\u4ED5\u4E0A\u304C\u308A\u5E45\u306E20%\u4EE5\u4E0B \u2113:\u4ED5\u4E0A\u304C\u308A\u5C0E\u4F53\u5E45\u4EE5\u4E0B
+    \ \u500B\u6570:X=1 Y=2"
+  Quiz30: "w:\u6700\u5C0F\u5C0E\u4F53\u9593\u3052\u304D\u3092\u6E80\u8DB3\u3057\u3001\u304B\u3064\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u306E20%\u4EE5\u4E0B\u3002\u2113:\u305D\u306E\u90E8\u5206\u306E\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u3092\u8D85\u3048\u3066\u306F\u306A\u3089\u306A\u3044\u3002\u500B\u6570:\u96A3\u63A5\u3059\u308B\u5C0E\u4F53\u9593\u306B1\u500B\u4EE5\u4E0B\u3001\u304B\u3064100\xD7100mm\u4E2D\u306B2\u500B\u307E\u3067OK"
+  Quiz31: "w:0.2mm\u4EE5\u4E0B\u3002\u2113:\u305D\u306E\u90E8\u5206\u306E\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u3092\u8D85\u3048\u3066\u306F\u306A\u3089\u306A\u3044\u3002\u500B\u6570:\u96A3\u63A5\u3059\u308B\u5C0E\u4F53\u9593\u306B2\u500B\u4EE5\u4E0B\u3001\u304B\u3064100\xD7100mm\u4E2D\u306B3\u500B\u307E\u3067OK"
+  Quiz32: "\u6B20\u640D\u9762\u7A4D\u306E\u5272\u5408:\u30E9\u30F3\u30C9\u9762\u7A4D\u306E25%\u4EE5\u4E0B
+    \u3001(p):0.05mm\u4EE5\u4E0A\u3001(q):0.15mm\u4EE5\u4E0A"
+  Quiz33: "(a):20%\u3000(b):0.2mm"
+  Quiz34: "\u6570\u5B57\u3092\u30E9\u30F3\u30C0\u30E0\u306B\u3059\u308B\u70BA\u4FDD\u7559\u3002"
+  Quiz35: "\u6570\u5B57\u3092\u30E9\u30F3\u30C0\u30E0\u306B\u3059\u308B\u70BA\u4FDD\u7559\u3002"
+  Quiz36: "0\u500B"
+  Quiz37: "\u53CD\u308A:1.0 \u306D\u3058\u308C:1.5"
+  Quiz38: "8\u03BC"
+  Quiz39: "(a):0.05mm\u4EE5\u4E0A (b)\u7A74\u306E\u63A5\u7DDA\u307E\u3067\u306F\u53EF\u3002"
+  Quiz40: "\u30EC\u30B8\u30B9\u30C8\u306E\u50B7"
+  Quiz41: "\u30A4\u30F3\u30AF\u5857\u5E03\u9762\u306E\u8272\u30E0\u30E9"
+  Quiz42: 0.15
+  Quiz43: 0.8
+  Quiz44: "\u6587\u5B57\u3001\u8A18\u53F7\u306E\u304B\u3059\u308C\u3001\u306B\u3058\u307F\u306F\u3042\u3063\u3066\u306F\u306A\u3089\u306A\u3044"
+  Quiz45: "0.8\u03BC"
+  Quiz46: "\xB10.2"
+  Quiz47: "50\u307E\u3067\u306E\u5BF8\u6CD5\u5897\u52A0\u6BCE\u306B0.1\u52A0\u3048\u308B\u3002"
+  Quiz48: 6.0
+  Quiz49: 0.4
+  Quiz50: "3\u30F6\u6708"
+  Quiz51: "6\u30F6\u6708"
+  Quiz52: "\u30D9\u30FC\u30AD\u30F3\u30B0\u51E6\u7406\u3057\u3066\u518D\u30D5\u30E9\u30C3\u30AF\u30B9"
+  Quiz53: "\u30D9\u30FC\u30AD\u30F3\u30B0\u51E6\u7406"
   questionList:
   - Quiz1
   - Quiz2
@@ -789,9 +789,11 @@ MonoBehaviour:
   - Quiz51
   - Quiz52
   - Quiz53
+  questionIndex: 0
   weight: 0
   Questionlabel: {fileID: 1686096536}
   AnswerA: {fileID: 775843255}
+  QuestionNumber: {fileID: 1569132165}
   maru: {fileID: 1155088099}
   batu: {fileID: 2122499628}
   answer1: {fileID: 870712996}
@@ -962,62 +964,6 @@ MonoBehaviour:
   answer4: {fileID: 965723404}
   quiz: {fileID: 785864825}
   AnswerA: {fileID: 775843255}
-  Quiz1: "\xB10.1"
-  Quiz2: "\u5171\u6676\u534A\u7530"
-  Quiz3: "\xB10.1"
-  Quiz4: "\xB10.15"
-  Quiz5: "\xB10.1"
-  Quiz6: "\xB10.15"
-  Quiz7: "\xB10.15"
-  Quiz8: "30\u03BC\u4EE5\u4E0B"
-  Quiz9: "\xB125\u03BC"
-  Quiz10: "3\u03BC\u4EE5\u4E0A"
-  Quiz11: "0.8\u03BC\u4EE5\u4E0A"
-  Quiz12: "3\u500B"
-  Quiz13: 25%
-  Quiz14: "\xB10.05"
-  Quiz15: "\xB10.05"
-  Quiz16: 0.02
-  Quiz17: "\xB10.2"
-  Quiz18: 0.02
-  Quiz19: 0.05
-  Quiz20: 0.02
-  Quiz21: 0.02
-  Quiz22: "400\u3092\u8D85\u3048\u308B\u3082\u306E\u306F\u3001100\u307E\u3067\u306E\u5BF8\u6CD5\u5897\u52A0\u3054\u3068\u306B0.05\u3092\u52A0\u3048\u308B"
-  Quiz23: "\xB10.1"
-  Quiz24: "\xB10.05"
-  Quiz25: "\xB10.05"
-  Quiz26: 0.1
-  Quiz27: "w:\u6700\u5C0F\u5C0E\u4F53\u9593\u3052\u304D\u3092\u6E80\u8DB3\u3057\u3001\u304B\u3064\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u306E20%\u4EE5\u4E0B\u3002\u2113:\u305D\u306E\u90E8\u5206\u306E\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u3092\u8D85\u3048\u3066\u306F\u306A\u3089\u306A\u3044\u3002\u500B\u6570:\u96A3\u63A5\u3059\u308B\u5C0E\u4F53\u9593\u306B1\u500B\u4EE5\u4E0B\u3001\u304B\u3064100\xD7100mm\u4E2D\u306B2\u500B\u307E\u3067OK"
-  Quiz28: "w:\u4ED5\u4E0A\u304C\u308A\u5E45\u306E25%\u4EE5\u4E0B \u2113:\u4ED5\u4E0A\u304C\u308A\u5C0E\u4F53\u5E45\u4EE5\u4E0B
-    \ \u500B\u6570:X:3y3"
-  Quiz29: "w:\u4ED5\u4E0A\u304C\u308A\u5E45\u306E20%\u4EE5\u4E0B \u2113:\u4ED5\u4E0A\u304C\u308A\u5C0E\u4F53\u5E45\u4EE5\u4E0B
-    \ \u500B\u6570:X=1 Y=2"
-  Quiz30: "w:\u6700\u5C0F\u5C0E\u4F53\u9593\u3052\u304D\u3092\u6E80\u8DB3\u3057\u3001\u304B\u3064\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u306E20%\u4EE5\u4E0B\u3002\u2113:\u305D\u306E\u90E8\u5206\u306E\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u3092\u8D85\u3048\u3066\u306F\u306A\u3089\u306A\u3044\u3002\u500B\u6570:\u96A3\u63A5\u3059\u308B\u5C0E\u4F53\u9593\u306B1\u500B\u4EE5\u4E0B\u3001\u304B\u3064100\xD7100mm\u4E2D\u306B2\u500B\u307E\u3067OK"
-  Quiz31: "w:0.2mm\u4EE5\u4E0B\u3002\u2113:\u305D\u306E\u90E8\u5206\u306E\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u3092\u8D85\u3048\u3066\u306F\u306A\u3089\u306A\u3044\u3002\u500B\u6570:\u96A3\u63A5\u3059\u308B\u5C0E\u4F53\u9593\u306B2\u500B\u4EE5\u4E0B\u3001\u304B\u3064100\xD7100mm\u4E2D\u306B3\u500B\u307E\u3067OK"
-  Quiz32: "\u6B20\u640D\u9762\u7A4D\u306E\u5272\u5408:\u30E9\u30F3\u30C9\u9762\u7A4D\u306E25%\u4EE5\u4E0B
-    \u3001(p):0.05mm\u4EE5\u4E0A\u3001(q):0.15mm\u4EE5\u4E0A"
-  Quiz33: "(a):20%\u3000(b):0.2mm"
-  Quiz34: "\u6570\u5B57\u3092\u30E9\u30F3\u30C0\u30E0\u306B\u3059\u308B\u70BA\u4FDD\u7559\u3002"
-  Quiz35: "\u6570\u5B57\u3092\u30E9\u30F3\u30C0\u30E0\u306B\u3059\u308B\u70BA\u4FDD\u7559\u3002"
-  Quiz36: "0\u500B"
-  Quiz37: "\u53CD\u308A:1.0 \u306D\u3058\u308C:1.5"
-  Quiz38: "8\u03BC"
-  Quiz39: "(a):0.05mm\u4EE5\u4E0A (b)\u7A74\u306E\u63A5\u7DDA\u307E\u3067\u306F\u53EF\u3002"
-  Quiz40: "\u30EC\u30B8\u30B9\u30C8\u306E\u50B7"
-  Quiz41: "\u30A4\u30F3\u30AF\u5857\u5E03\u9762\u306E\u8272\u30E0\u30E9"
-  Quiz42: 0.15
-  Quiz43: 0.8
-  Quiz44: "\u6587\u5B57\u3001\u8A18\u53F7\u306E\u304B\u3059\u308C\u3001\u306B\u3058\u307F\u306F\u3042\u3063\u3066\u306F\u306A\u3089\u306A\u3044"
-  Quiz45: "0.8\u03BC"
-  Quiz46: "\xB10.2"
-  Quiz47: "50\u307E\u3067\u306E\u5BF8\u6CD5\u5897\u52A0\u6BCE\u306B0.1\u52A0\u3048\u308B\u3002"
-  Quiz48: 6.0
-  Quiz49: 0.4
-  Quiz50: "3\u30F6\u6708"
-  Quiz51: "6\u30F6\u6708"
-  Quiz52: "\u30D9\u30FC\u30AD\u30F3\u30B0\u51E6\u7406\u3057\u3066\u518D\u30D5\u30E9\u30C3\u30AF\u30B9"
-  Quiz53: "\u30D9\u30FC\u30AD\u30F3\u30B0\u51E6\u7406"
 --- !u!1 &962532478
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,6 +1063,7 @@ RectTransform:
   - {fileID: 1155088101}
   - {fileID: 2122499627}
   - {fileID: 1463282524}
+  - {fileID: 1569132164}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1275,62 +1222,6 @@ MonoBehaviour:
   answer4: {fileID: 965723404}
   quiz: {fileID: 785864825}
   AnswerA: {fileID: 775843255}
-  Quiz1: "\xB10.1"
-  Quiz2: "\u5171\u6676\u534A\u7530"
-  Quiz3: "\xB10.1"
-  Quiz4: "\xB10.15"
-  Quiz5: "\xB10.1"
-  Quiz6: "\xB10.15"
-  Quiz7: "\xB10.15"
-  Quiz8: "30\u03BC\u4EE5\u4E0B"
-  Quiz9: "\xB125\u03BC"
-  Quiz10: "3\u03BC\u4EE5\u4E0A"
-  Quiz11: "0.8\u03BC\u4EE5\u4E0A"
-  Quiz12: "3\u500B"
-  Quiz13: 25%
-  Quiz14: "\xB10.05"
-  Quiz15: "\xB10.05"
-  Quiz16: 0.02
-  Quiz17: "\xB10.2"
-  Quiz18: 0.02
-  Quiz19: 0.05
-  Quiz20: 0.02
-  Quiz21: 0.02
-  Quiz22: "400\u3092\u8D85\u3048\u308B\u3082\u306E\u306F\u3001100\u307E\u3067\u306E\u5BF8\u6CD5\u5897\u52A0\u3054\u3068\u306B0.05\u3092\u52A0\u3048\u308B"
-  Quiz23: "\xB10.1"
-  Quiz24: "\xB10.05"
-  Quiz25: "\xB10.05"
-  Quiz26: 0.1
-  Quiz27: "w:\u6700\u5C0F\u5C0E\u4F53\u9593\u3052\u304D\u3092\u6E80\u8DB3\u3057\u3001\u304B\u3064\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u306E20%\u4EE5\u4E0B\u3002\u2113:\u305D\u306E\u90E8\u5206\u306E\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u3092\u8D85\u3048\u3066\u306F\u306A\u3089\u306A\u3044\u3002\u500B\u6570:\u96A3\u63A5\u3059\u308B\u5C0E\u4F53\u9593\u306B1\u500B\u4EE5\u4E0B\u3001\u304B\u3064100\xD7100mm\u4E2D\u306B2\u500B\u307E\u3067OK"
-  Quiz28: "w:\u4ED5\u4E0A\u304C\u308A\u5E45\u306E25%\u4EE5\u4E0B \u2113:\u4ED5\u4E0A\u304C\u308A\u5C0E\u4F53\u5E45\u4EE5\u4E0B
-    \ \u500B\u6570:X:3y3"
-  Quiz29: "w:\u4ED5\u4E0A\u304C\u308A\u5E45\u306E20%\u4EE5\u4E0B \u2113:\u4ED5\u4E0A\u304C\u308A\u5C0E\u4F53\u5E45\u4EE5\u4E0B
-    \ \u500B\u6570:X=1 Y=2"
-  Quiz30: "w:\u6700\u5C0F\u5C0E\u4F53\u9593\u3052\u304D\u3092\u6E80\u8DB3\u3057\u3001\u304B\u3064\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u306E20%\u4EE5\u4E0B\u3002\u2113:\u305D\u306E\u90E8\u5206\u306E\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u3092\u8D85\u3048\u3066\u306F\u306A\u3089\u306A\u3044\u3002\u500B\u6570:\u96A3\u63A5\u3059\u308B\u5C0E\u4F53\u9593\u306B1\u500B\u4EE5\u4E0B\u3001\u304B\u3064100\xD7100mm\u4E2D\u306B2\u500B\u307E\u3067OK"
-  Quiz31: "w:0.2mm\u4EE5\u4E0B\u3002\u2113:\u305D\u306E\u90E8\u5206\u306E\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u3092\u8D85\u3048\u3066\u306F\u306A\u3089\u306A\u3044\u3002\u500B\u6570:\u96A3\u63A5\u3059\u308B\u5C0E\u4F53\u9593\u306B2\u500B\u4EE5\u4E0B\u3001\u304B\u3064100\xD7100mm\u4E2D\u306B3\u500B\u307E\u3067OK"
-  Quiz32: "\u6B20\u640D\u9762\u7A4D\u306E\u5272\u5408:\u30E9\u30F3\u30C9\u9762\u7A4D\u306E25%\u4EE5\u4E0B
-    \u3001(p):0.05mm\u4EE5\u4E0A\u3001(q):0.15mm\u4EE5\u4E0A"
-  Quiz33: "(a):20%\u3000(b):0.2mm"
-  Quiz34: "\u6570\u5B57\u3092\u30E9\u30F3\u30C0\u30E0\u306B\u3059\u308B\u70BA\u4FDD\u7559\u3002"
-  Quiz35: "\u6570\u5B57\u3092\u30E9\u30F3\u30C0\u30E0\u306B\u3059\u308B\u70BA\u4FDD\u7559\u3002"
-  Quiz36: "0\u500B"
-  Quiz37: "\u53CD\u308A:1.0 \u306D\u3058\u308C:1.5"
-  Quiz38: "8\u03BC"
-  Quiz39: "(a):0.05mm\u4EE5\u4E0A (b)\u7A74\u306E\u63A5\u7DDA\u307E\u3067\u306F\u53EF\u3002"
-  Quiz40: "\u30EC\u30B8\u30B9\u30C8\u306E\u50B7"
-  Quiz41: "\u30A4\u30F3\u30AF\u5857\u5E03\u9762\u306E\u8272\u30E0\u30E9"
-  Quiz42: 0.15
-  Quiz43: 0.8
-  Quiz44: "\u6587\u5B57\u3001\u8A18\u53F7\u306E\u304B\u3059\u308C\u3001\u306B\u3058\u307F\u306F\u3042\u3063\u3066\u306F\u306A\u3089\u306A\u3044"
-  Quiz45: "0.8\u03BC"
-  Quiz46: "\xB10.2"
-  Quiz47: "50\u307E\u3067\u306E\u5BF8\u6CD5\u5897\u52A0\u6BCE\u306B0.1\u52A0\u3048\u308B\u3002"
-  Quiz48: 6.0
-  Quiz49: 0.4
-  Quiz50: "3\u30F6\u6708"
-  Quiz51: "6\u30F6\u6708"
-  Quiz52: "\u30D9\u30FC\u30AD\u30F3\u30B0\u51E6\u7406\u3057\u3066\u518D\u30D5\u30E9\u30C3\u30AF\u30B9"
-  Quiz53: "\u30D9\u30FC\u30AD\u30F3\u30B0\u51E6\u7406"
 --- !u!1001 &1140454497
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1717,6 +1608,166 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1537014454}
+  m_CullTransparentMesh: 0
+--- !u!1 &1569132163
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1569132164}
+  - component: {fileID: 1569132166}
+  - component: {fileID: 1569132165}
+  m_Layer: 5
+  m_Name: QuizNumber
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1569132164
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569132163}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 962532482}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 272.44998, y: 640.0001}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1569132165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569132163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_outlineColor:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_textAlignment: 257
+  m_isAlignmentEnumConverted: 1
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_firstOverflowCharacterIndex: -1
+  m_linkedTextComponent: {fileID: 0}
+  m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_ignoreRectMaskCulling: 0
+  m_ignoreCulling: 1
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_firstVisibleCharacter: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_textInfo:
+    textComponent: {fileID: 1569132165}
+    characterCount: 8
+    spriteCount: 0
+    spaceCount: 1
+    wordCount: 2
+    linkCount: 0
+    lineCount: 1
+    pageCount: 1
+    materialCount: 1
+  m_havePropertiesChanged: 0
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_spriteAnimator: {fileID: 0}
+  m_isInputParsingRequired: 0
+  m_inputSource: 0
+  m_hasFontAssetChanged: 0
+  m_subTextObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1569132166
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569132163}
   m_CullTransparentMesh: 0
 --- !u!1 &1588005703
 GameObject:
@@ -2187,62 +2238,6 @@ MonoBehaviour:
   answer4: {fileID: 965723404}
   quiz: {fileID: 785864825}
   AnswerA: {fileID: 775843255}
-  Quiz1: "\xB10.1"
-  Quiz2: "\u5171\u6676\u534A\u7530"
-  Quiz3: "\xB10.1"
-  Quiz4: "\xB10.15"
-  Quiz5: "\xB10.1"
-  Quiz6: "\xB10.15"
-  Quiz7: "\xB10.15"
-  Quiz8: "30\u03BC\u4EE5\u4E0B"
-  Quiz9: "\xB125\u03BC"
-  Quiz10: "3\u03BC\u4EE5\u4E0A"
-  Quiz11: "0.8\u03BC\u4EE5\u4E0A"
-  Quiz12: "3\u500B"
-  Quiz13: 25%
-  Quiz14: "\xB10.05"
-  Quiz15: "\xB10.05"
-  Quiz16: 0.02
-  Quiz17: "\xB10.2"
-  Quiz18: 0.02
-  Quiz19: 0.05
-  Quiz20: 0.02
-  Quiz21: 0.02
-  Quiz22: "400\u3092\u8D85\u3048\u308B\u3082\u306E\u306F\u3001100\u307E\u3067\u306E\u5BF8\u6CD5\u5897\u52A0\u3054\u3068\u306B0.05\u3092\u52A0\u3048\u308B"
-  Quiz23: "\xB10.1"
-  Quiz24: "\xB10.05"
-  Quiz25: "\xB10.05"
-  Quiz26: 0.1
-  Quiz27: "w:\u6700\u5C0F\u5C0E\u4F53\u9593\u3052\u304D\u3092\u6E80\u8DB3\u3057\u3001\u304B\u3064\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u306E20%\u4EE5\u4E0B\u3002\u2113:\u305D\u306E\u90E8\u5206\u306E\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u3092\u8D85\u3048\u3066\u306F\u306A\u3089\u306A\u3044\u3002\u500B\u6570:\u96A3\u63A5\u3059\u308B\u5C0E\u4F53\u9593\u306B1\u500B\u4EE5\u4E0B\u3001\u304B\u3064100\xD7100mm\u4E2D\u306B2\u500B\u307E\u3067OK"
-  Quiz28: "w:\u4ED5\u4E0A\u304C\u308A\u5E45\u306E25%\u4EE5\u4E0B \u2113:\u4ED5\u4E0A\u304C\u308A\u5C0E\u4F53\u5E45\u4EE5\u4E0B
-    \ \u500B\u6570:X:3y3"
-  Quiz29: "w:\u4ED5\u4E0A\u304C\u308A\u5E45\u306E20%\u4EE5\u4E0B \u2113:\u4ED5\u4E0A\u304C\u308A\u5C0E\u4F53\u5E45\u4EE5\u4E0B
-    \ \u500B\u6570:X=1 Y=2"
-  Quiz30: "w:\u6700\u5C0F\u5C0E\u4F53\u9593\u3052\u304D\u3092\u6E80\u8DB3\u3057\u3001\u304B\u3064\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u306E20%\u4EE5\u4E0B\u3002\u2113:\u305D\u306E\u90E8\u5206\u306E\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u3092\u8D85\u3048\u3066\u306F\u306A\u3089\u306A\u3044\u3002\u500B\u6570:\u96A3\u63A5\u3059\u308B\u5C0E\u4F53\u9593\u306B1\u500B\u4EE5\u4E0B\u3001\u304B\u3064100\xD7100mm\u4E2D\u306B2\u500B\u307E\u3067OK"
-  Quiz31: "w:0.2mm\u4EE5\u4E0B\u3002\u2113:\u305D\u306E\u90E8\u5206\u306E\u8A2D\u8A08\u5C0E\u4F53\u9593\u3052\u304D\u5024\u3092\u8D85\u3048\u3066\u306F\u306A\u3089\u306A\u3044\u3002\u500B\u6570:\u96A3\u63A5\u3059\u308B\u5C0E\u4F53\u9593\u306B2\u500B\u4EE5\u4E0B\u3001\u304B\u3064100\xD7100mm\u4E2D\u306B3\u500B\u307E\u3067OK"
-  Quiz32: "\u6B20\u640D\u9762\u7A4D\u306E\u5272\u5408:\u30E9\u30F3\u30C9\u9762\u7A4D\u306E25%\u4EE5\u4E0B
-    \u3001(p):0.05mm\u4EE5\u4E0A\u3001(q):0.15mm\u4EE5\u4E0A"
-  Quiz33: "(a):20%\u3000(b):0.2mm"
-  Quiz34: "\u6570\u5B57\u3092\u30E9\u30F3\u30C0\u30E0\u306B\u3059\u308B\u70BA\u4FDD\u7559\u3002"
-  Quiz35: "\u6570\u5B57\u3092\u30E9\u30F3\u30C0\u30E0\u306B\u3059\u308B\u70BA\u4FDD\u7559\u3002"
-  Quiz36: "0\u500B"
-  Quiz37: "\u53CD\u308A:1.0 \u306D\u3058\u308C:1.5"
-  Quiz38: "8\u03BC"
-  Quiz39: "(a):0.05mm\u4EE5\u4E0A (b)\u7A74\u306E\u63A5\u7DDA\u307E\u3067\u306F\u53EF\u3002"
-  Quiz40: "\u30EC\u30B8\u30B9\u30C8\u306E\u50B7"
-  Quiz41: "\u30A4\u30F3\u30AF\u5857\u5E03\u9762\u306E\u8272\u30E0\u30E9"
-  Quiz42: 0.15
-  Quiz43: 0.8
-  Quiz44: "\u6587\u5B57\u3001\u8A18\u53F7\u306E\u304B\u3059\u308C\u3001\u306B\u3058\u307F\u306F\u3042\u3063\u3066\u306F\u306A\u3089\u306A\u3044"
-  Quiz45: "0.8\u03BC"
-  Quiz46: "\xB10.2"
-  Quiz47: "50\u307E\u3067\u306E\u5BF8\u6CD5\u5897\u52A0\u6BCE\u306B0.1\u52A0\u3048\u308B\u3002"
-  Quiz48: 6.0
-  Quiz49: 0.4
-  Quiz50: "3\u30F6\u6708"
-  Quiz51: "6\u30F6\u6708"
-  Quiz52: "\u30D9\u30FC\u30AD\u30F3\u30B0\u51E6\u7406\u3057\u3066\u518D\u30D5\u30E9\u30C3\u30AF\u30B9"
-  Quiz53: "\u30D9\u30FC\u30AD\u30F3\u30B0\u51E6\u7406"
 --- !u!1001 &2077410555
 PrefabInstance:
   m_ObjectHideFlags: 0
