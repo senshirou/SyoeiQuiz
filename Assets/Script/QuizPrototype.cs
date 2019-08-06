@@ -118,7 +118,7 @@ public class QuizPrototype : MonoBehaviour {
 
 
 		//リストをシャッフルする
-		 questionList = questionList.OrderBy ( a => Guid.NewGuid () ).ToList ();
+		 //questionList = questionList.OrderBy ( a => Guid.NewGuid () ).ToList ();
 
         //AnswerButtonの配列を取得
         Quiz = GameObject.Find("Answer1").GetComponent<AnswerButton>();
