@@ -202,7 +202,7 @@ public class AnswerButton : MonoBehaviour
         if (hantei == true)
         {
             Answermaru();
-            QuizNumber.text = "";
+            
 
 
         }
@@ -211,7 +211,7 @@ public class AnswerButton : MonoBehaviour
         else
         {
             Answerbatu();
-            QuizNumber.text = "";
+            
 
         }
         
