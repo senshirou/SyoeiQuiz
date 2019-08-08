@@ -49,8 +49,8 @@ public class AnswerButton : MonoBehaviour
     string Quiz27 = "W:20% X:1個  Y:2個";
     string Quiz28 = "w:仕上がり幅の25%以下 ℓ:仕上がり導体幅以下  個数:X:3y3";
     string Quiz29 = "w:仕上がり幅の20%以下 ℓ:仕上がり導体幅以下  個数:X=1 Y=2";
-    string Quiz30 = "W:20% X:1個  Y:2個";
-    string Quiz31 = "w:0.2mm以下。ℓ:その部分の設計導体間げき値を超えてはならない。個数:隣接する導体間に2個以下、かつ100×100mm中に3個までOK";
+    string Quiz30 = "X:20%以下。Y:1個以下 Z:2個まで";
+    string Quiz31 = "X:0.2mm以下  Y:2個以下  Z:3個まで";
     string Quiz32 = "欠損面積の割合:ランド面積の25%以下 、(p):0.05mm以上、(q):0.15mm以上";
     string Quiz33 = "(a):20%　(b):0.2mm";
     string Quiz34 = "数字をランダムにする為保留。";
@@ -156,8 +156,8 @@ public class AnswerButton : MonoBehaviour
         if (QuizNumber.text == "Quiz27") { Debug.Log("HIT"); if (AnsButton.text == "W:20% X:1個  Y:2個") { hantei = true; } }
         if (QuizNumber.text == "Quiz28") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz28) { hantei = true; } }
         if (QuizNumber.text == "Quiz29") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz29) { hantei = true; } }
-        if (QuizNumber.text == "Quiz30") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz30) { hantei = true; } }
-        if (QuizNumber.text == "Quiz31") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz31) { hantei = true; } }
+        if (QuizNumber.text == "Quiz30") { Debug.Log("HIT"); if (AnsButton.text == "X:20%以下。Y:1個以下 Z:2個まで") { hantei = true; } }
+        if (QuizNumber.text == "Quiz31") { Debug.Log("HIT"); if (AnsButton.text == "X:0.2mm以下  Y:2個以下  Z:3個まで") { hantei = true; } }
         if (QuizNumber.text == "Quiz32") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz32) { hantei = true; } }
         if (QuizNumber.text == "Quiz33") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz33) { hantei = true; } }
         if (QuizNumber.text == "Quiz34") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz34) { hantei = true; } }
