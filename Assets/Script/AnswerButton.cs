@@ -51,7 +51,7 @@ public class AnswerButton : MonoBehaviour
     string Quiz29 = "w:仕上がり幅の20%以下 ℓ:仕上がり導体幅以下  個数:X=1 Y=2";
     string Quiz30 = "X:20%以下。Y:1個以下 Z:2個まで";
     string Quiz31 = "X:0.2mm以下  Y:2個以下  Z:3個まで";
-    string Quiz32 = "欠損面積の割合:ランド面積の25%以下 、(p):0.05mm以上、(q):0.15mm以上";
+    string Quiz32 = "(o):ランド面積の25%以下 、(p):0.05mm以上、(q):0.15mm以上";
     string Quiz33 = "(a):20%　(b):0.2mm";
     string Quiz34 = "数字をランダムにする為保留。";
     string Quiz35 = "数字をランダムにする為保留。";
