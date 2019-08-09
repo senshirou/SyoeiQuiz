@@ -39,7 +39,7 @@ public class QuizPrototype : MonoBehaviour {
     public string Quiz29 = "w:仕上がり幅の20%以下 ℓ:仕上がり導体幅以下  個数:X=1 Y=2";
     public string Quiz30 = "X:20%以下。Y:1個以下 Z:2個まで";
     public string Quiz31 = "X:0.2mm以下  Y:2個以下  Z:3個まで";
-    public string Quiz32 = "欠損面積の割合:ランド面積の25%以下 、(p):0.05mm以上、(q):0.15mm以上";
+    public string Quiz32 = "(o):ランド面積の25%以下 、(p):0.05mm以上、(q):0.15mm以上";
     public string Quiz33 = "(a):20%　(b):0.2mm";
     public string Quiz34 = "数字をランダムにする為保留。";
     public string Quiz35 = "数字をランダムにする為保留。";
@@ -749,7 +749,7 @@ public class QuizPrototype : MonoBehaviour {
     void Question29() { AnswerA.text = "w:仕上がり幅の20%以下 ℓ:仕上がり導体幅以下  個数:X=1 Y=2"; Questionlabel.text = "図に示す導体の幅が0.19mm以下の欠損部分の幅(w)、長さ(ℓ)・個数(1導体(X)個、100×100m中に(Z)個以下）の許容差は？"; array = new string[] {Quiz29, "w:仕上がり幅の25%以下 ℓ:仕上がり導体幅以下  個数: X=3 Y=3", "w:仕上がり幅の20%以下 ℓ:仕上がり導体幅以下  個数:X=3 Y=3", "w:仕上がり幅の30%以下 ℓ:仕上がり導体幅以下  個数:X=1 Y=2" }; }
     void Question30() { AnswerA.text = AnswerA.text = "X:20%以下。Y:1個以下 Z:2個まで"; Questionlabel.text = "導体間げき部が1.0mm未満で図に示す導体残りの時、最小導体間げきを満足し、設計導体導体間げき値の(X)。個数：隣接する導体間に(Y)、かつ100×100mm中に(Z)とする"; array = new string[] { "X:20%以下。Y:1個以下 Z:2個まで", "X:25%以下。Y:2個以下、Y2個まで", "X:20%以下 Y:2個以下 Z:2個まで", "X:30%以下。Y:1個以下  Z:2個まで" };}
     void Question31() { AnswerA.text = "X:0.2mm以下  Y:2個以下  Z:3個まで"; Questionlabel.text = "導体間げき部が1.0mm以上で図に示す導体残りがある場合、導体の残りの幅(X)でその部分の設計導体間隙値を超えてはならない。個体は隣接する導体間に(Y)、かつ100×100mm中に(Z)"; array = new string[] { "X:0.2mm以下  Y:2個以下  Z:3個まで", "X:20%以下  Y:2個以下  Z:2個まで", "X:25%以下  Y:1個以下  Z:2個まで", "X:0.2mm以下。Y:1個以下、Z:2個まで" }; }
-    void Question32() { AnswerA.text = "欠損面積の割合:ランド面積の25%以下 、(p):0.05mm以上、(q):0.15mm以上"; Questionlabel.text = "図に示すようなランドの欠損に起因する欠損面積、残り幅(p)、(q)、突起(w)及び個数の許容値は"; array = new string[] {Quiz32, "欠損面積の割合:ランド面積の30%以下 、(p):0.05mm以上、(q):0.25mm以上", "欠損面積の割合:ランド面積の20%以下 、(p):0.05mm以上、(q):0.12mm以上", "欠損面積の割合:ランド面積の25%以下 、(p):0.10mm以上、(q):0.15mm以上" }; }
+    void Question32() { AnswerA.text = "欠損面積の割合:ランド面積の25%以下 、(p):0.05mm以上、(q):0.15mm以上"; Questionlabel.text = "図に示すようなランドの欠損に起因する欠損面積(o)、残り幅(p)、(q)、突起(w)の許容値は"; array = new string[] {Quiz32, "(o):ランド面積の30%以下 、(p):0.05mm以上、(q):0.25mm以上", "(o):ランド面積の20%以下 、(p):0.05mm以上、(q):0.12mm以上", "(o):ランド面積の25%以下 、(p):0.10mm以上、(q):0.15mm以上" }; }
     void Question33() { AnswerA.text = "(a):20%　(b):0.2mm"; Questionlabel.text = "ランドの突起(w)は隣接する導体間隙が1.0mm未満の時、最小導体間隙の値を満足かつ導体間げきの(a)以下。導体間隙1.0mm以上は(b)以下。"; array = new string[] {Quiz33, "(a):25%　(b):0.2mm", "(a):15%　(b):0.15mm", "(a):20%　(b):0.15mm" }; }
     void Question34() { AnswerA.text = "ランダム問題の為現在作成中。"; array = new string[] {Quiz34, "", "", "" }; }
     void Question35() { AnswerA.text = "ランダム問題の為現在作成中"; array = new string[] {Quiz35, "", "", "" }; }
@@ -768,9 +768,9 @@ public class QuizPrototype : MonoBehaviour {
     void Question48() { AnswerA.text = "6.0"; Questionlabel.text = "ルーター加工の丸穴は何mm以上が加工範囲か"; array = new string[] {Quiz48, "5.5", "6.05", "5.55" }; }
     void Question49() { AnswerA.text = "0.4"; Questionlabel.text = "VカットはV溝中心からパターンまでの必要距離は何mmか？"; array = new string[] {Quiz49, "0.2", "0.3", "0.5" }; }
     void Question50() { AnswerA.text = "3ヶ月"; Questionlabel.text = "プリフラックス製品の推奨保管期限はいくつか？"; array = new string[] {Quiz50, "6ヶ月", "9ヶ月", "1ヶ月" }; }
-    void Question51() { AnswerA.text = "6ヶ月"; Questionlabel.text = "半田ﾚﾍﾞﾗｰ等表面処理に金属を含む製品の推奨保管期限はいくつか？"; array = new string[] {Quiz51, "3ヶ月", "9ヶ月", "1ヶ月" }; }
+    void Question51() { AnswerA.text = "6ヶ月"; Questionlabel.text = "半田レベラー等表面処理に金属を含む製品の推奨保管期限はいくつか？"; array = new string[] {Quiz51, "3ヶ月", "9ヶ月", "1ヶ月" }; }
     void Question52() { AnswerA.text = "ベーキング処理して再フラックス"; Questionlabel.text = "プリフラック製品の保管期限6ヶ月以上過ぎた場合の正しい対応を選べ。"; array = new string[] {Quiz52, "再フラックス", "製品を処分する", "ベーキング" }; }
-    void Question53() { AnswerA.text = "ベーキング処理"; Questionlabel.text = "半田ﾚﾍﾞﾗｰ等表面処理に6ヶ月以上過ぎた場合の正しい対応を選べ"; array = new string[] {Quiz53, "ベーキング後再処理", "製品を処分", "再フラックス" }; }
+    void Question53() { AnswerA.text = "ベーキング処理"; Questionlabel.text = "半田レベラー等表面処理に6ヶ月以上過ぎた場合の正しい対応を選べ"; array = new string[] {Quiz53, "ベーキング後再処理", "製品を処分", "再フラックス" }; }
 
 
 

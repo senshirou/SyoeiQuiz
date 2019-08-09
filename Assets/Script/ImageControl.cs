@@ -26,6 +26,14 @@ public class ImageControl : MonoBehaviour
             QuizImage.sprite = sprite;
         }
 
+        else if(QuizNumber.text == "Quiz8")
+        {
+            GetComponent<Image>().color = new Color32(255, 255, 255, 255);
+            sprite = Resources.Load<Sprite>("Question8");
+            QuizImage.sprite = sprite;
+
+        }
+
         else
         {
             GetComponent<Image>().color = new Color32(255, 255, 255, 0);
