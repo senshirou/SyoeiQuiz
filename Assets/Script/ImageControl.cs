@@ -8,11 +8,14 @@ public class ImageControl : MonoBehaviour
 {
     [SerializeField] Image QuizImage;
     [SerializeField] TextMeshProUGUI QuizNumber;
+    RectTransform size;
+    
     private Sprite sprite;
 
     // Start is called before the first frame update
     void Start()
     {
+        size = GetComponent<RectTransform>();
         
     }
 
@@ -31,12 +34,15 @@ public class ImageControl : MonoBehaviour
             GetComponent<Image>().color = new Color32(255, 255, 255, 255);
             sprite = Resources.Load<Sprite>("Question8");
             QuizImage.sprite = sprite;
+            size.sizeDelta = new Vector2(242.5f, 266.5f);
+            
 
         }
 
         else
         {
             GetComponent<Image>().color = new Color32(255, 255, 255, 0);
+            
         }
 
 
