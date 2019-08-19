@@ -27,6 +27,7 @@ public class ImageControl : MonoBehaviour
             ImageScale255();
             sprite = Resources.Load<Sprite>("Question3_4png");
             size.sizeDelta = new Vector2(697.7f, 312.6f);
+            
         }
 
         else if(QuizNumber.text == "Quiz8")
@@ -58,6 +59,19 @@ public class ImageControl : MonoBehaviour
             size.sizeDelta = new Vector2(697.7f, 312.6f);
         }
 
+        else if (QuizNumber.text == "Quiz18" || QuizNumber.text == "Quiz19" || QuizNumber.text == "Quiz20")
+        {
+            ImageScale255();
+            sprite = Resources.Load<Sprite>("Question18_19_20");
+            size.sizeDelta = new Vector2(361f, 361f);
+        }
+
+        else if (QuizNumber.text == "Quiz21" || QuizNumber.text == "Quiz22")
+        {
+            ImageScale255();
+            sprite = Resources.Load<Sprite>("Question21_22");
+            size.sizeDelta = new Vector2(436f,195f);
+        }
         else
         {
             GetComponent<Image>().color = new Color32(255, 255, 255, 0);
