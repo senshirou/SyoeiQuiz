@@ -91,6 +91,15 @@ public class ImageControl : MonoBehaviour
             size.sizeDelta = new Vector2(697.7f, 312.6f);
 
         }
+
+        else if (QuizNumber.text == "Quiz27" || QuizNumber.text == "Quiz28" || QuizNumber.text == "Quiz29")
+        {
+            ImageScale255();
+            sprite = Resources.Load<Sprite>("Question27_28_29");
+            size.sizeDelta = new Vector2(697.7f,150.6f);
+            size.position = new Vector2(82.9f, 195.0f);
+
+        }
         else
         {
             GetComponent<Image>().color = new Color32(255, 255, 255, 0);
