@@ -105,9 +105,63 @@ public class ImageControl : MonoBehaviour
         {
             ImageScale255();
             sprite = Resources.Load<Sprite>("Question30_31");
+            size.sizeDelta = new Vector2(697.7f, 150.6f);
+            size.position = new Vector2(82.9f, 185.0f);
+
+        }
+
+        else if (QuizNumber.text == "Quiz32")
+        {
+            ImageScale255();
+            sprite = Resources.Load<Sprite>("Question32_33");
             size.sizeDelta = new Vector2(697.7f, 312.6f);
 
         }
+
+        else if (QuizNumber.text == "Quiz33")
+        {
+            ImageScale255();
+            sprite = Resources.Load<Sprite>("Question32_33");
+            size.sizeDelta = new Vector2(697.7f, 150.6f);
+            size.position = new Vector2(82.9f, 185.0f);
+
+        }
+
+        else if (QuizNumber.text == "Quiz34")
+        {
+            ImageScale255();
+            sprite = Resources.Load<Sprite>("Question34");
+            size.sizeDelta = new Vector2(697.7f, 312.6f);
+
+        }
+
+        else if (QuizNumber.text == "Quiz37")
+        {
+            ImageScale255();
+            sprite = Resources.Load<Sprite>("Question37");
+            size.sizeDelta = new Vector2(697.7f, 312.6f);
+
+        }
+
+        else if (QuizNumber.text == "Quiz38")
+        {
+            ImageScale255();
+            sprite = Resources.Load<Sprite>("Question38");
+            size.sizeDelta = new Vector2(697.7f, 312.6f);
+
+        }
+
+        else if (QuizNumber.text == "Quiz39")
+        {
+            ImageScale255();
+            sprite = Resources.Load<Sprite>("Question39");
+            size.sizeDelta = new Vector2(242.5f, 266.5f);
+            size.position = new Vector2(82.9f, 195.9f);
+
+
+        }
+
+
 
         else
         {
