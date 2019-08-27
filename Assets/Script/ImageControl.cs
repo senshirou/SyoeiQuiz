@@ -161,6 +161,24 @@ public class ImageControl : MonoBehaviour
 
         }
 
+        else if (QuizNumber.text == "Quiz42" || QuizNumber.text == "Quiz43")
+        {
+            ImageScale255();
+            sprite = Resources.Load<Sprite>("Question42_43");
+            size.sizeDelta = new Vector2(242.5f, 266.5f);
+            size.position = new Vector2(82.9f, 195.9f);
+
+
+        }
+
+        else if (QuizNumber.text == "Quiz49")
+        {
+            ImageScale255();
+            sprite = Resources.Load<Sprite>("Question49");
+            size.sizeDelta = new Vector2(697.7f, 312.6f);
+
+
+        }
 
 
         else
