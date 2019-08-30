@@ -75,6 +75,7 @@ public class AnswerButton : MonoBehaviour
     string Quiz53 = "ベーキング処理";
 
     QuizPrototype Quiztype;
+    
 
 
 
@@ -92,6 +93,8 @@ public class AnswerButton : MonoBehaviour
     
 
     //ボタンのテキストを宣言
+
+    
     
 
 
@@ -180,7 +183,9 @@ public class AnswerButton : MonoBehaviour
         if (QuizNumber.text == "Quiz51") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz51) { hantei = true; } }
         if (QuizNumber.text == "Quiz52") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz52) { hantei = true; } }
         if (QuizNumber.text == "Quiz53") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz53) { hantei = true; } }
-
+        if (QuizNumber.text == "Quiz74") { Debug.Log("HIT"); if (AnsButton.text == $"{0.25f + quiz.weight}mm") { hantei = true; } }
+        if (QuizNumber.text == "Quiz74") { Debug.Log("HIT"); if (AnsButton.text == $"{0.30f + quiz.weight}mm") { hantei = true; } }
+        if (QuizNumber.text == "Quiz74") { Debug.Log("HIT"); if (AnsButton.text == $"{0.35f + quiz.weight}mm") { hantei = true; } }
 
 
 
