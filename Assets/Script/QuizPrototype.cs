@@ -61,6 +61,7 @@ public class QuizPrototype : MonoBehaviour {
     public string Quiz51 = "6ヶ月";
     public string Quiz52 = "ベーキング処理して再フラックス";
     public string Quiz53 = "ベーキング処理";
+    
 
 
 
@@ -79,6 +80,11 @@ public class QuizPrototype : MonoBehaviour {
 
 	//長さの単位
 	public float weight;
+
+    //外形加工の寸法許容差用変数
+    public float Lootweight;
+
+    public float Lootweight2;
 
     bool seigyo;
 
@@ -127,7 +133,10 @@ public class QuizPrototype : MonoBehaviour {
         stage1();
 
         //製品寸法1の乱数
-        weight = UnityEngine.Random.Range(80,290);
+        weight = UnityEngine.Random.Range(400,700);
+        Lootweight = UnityEngine.Random.Range(100, 299);
+        Lootweight2 = UnityEngine.Random.Range(300, 499);
+
 		 
 		 //コンソールでweightの数字を出力
 		 Debug.Log(weight);
@@ -233,6 +242,8 @@ public class QuizPrototype : MonoBehaviour {
 
     public void stage1()
 	{
+
+        
         seigyo = false;
         
         if (questionIndex == questionList.Count)
@@ -341,23 +352,47 @@ public class QuizPrototype : MonoBehaviour {
                 //}
             }
 
-            //問題4(修正する）
-            if (questionList[questionIndex] == "Quiz74")
+        //問題4(修正する）
+        if (questionList[questionIndex] == "Quiz74")
+        {
+
+            QuestionNumber.text = "Quiz74";
+
+            Questionlabel.text = $"図に示す、基準穴又は基準マークからフットプリントまでの位置(j1)(j2)の許容差はプリント板長手寸法{weight}mmの場合何mmか？";
+            if (weight >= 400 && weight <= 499)
             {
-                AnswerA.text = $"{0.2f + weight}mm";
-                Questionlabel.text = $"寸法サイズが{weight}mmの時、寸法の許容値は？";
-                array = new string[] { $"{0.2f + weight}mm", $"{0.1f + weight}mm", $"{0.5f + weight}mm", $"{1f + weight}mm" };
-                array2 = array.OrderBy(a => Guid.NewGuid()).ToArray();
-                for (int i = 1; i <= array.Length; i++)
-                {
-                    labels = GameObject.Find("Quiz/Answer" + i).GetComponentInChildren<Text>();
-                    labels.text = array2[i - 1];
-                }
+                AnswerA.text = $"{0.25f + weight}mm";
+                array = new string[] { $"{0.25f + weight}mm", $"{0.2f + weight}mm", $"{0.15f + weight}mm", $"{0.13f + weight}mm" };
             }
 
-         //ここからが本題
+            if (weight >= 500 && weight <= 599)
+            {
+                AnswerA.text = $"{0.30f + weight}mm";
+                array = new string[] { $"{0.30f + weight}mm", $"{0.05f + weight}mm", $"{0.1f + weight}mm", $"{0.08f + weight}mm" };
+            }
 
-            if (questionList[questionIndex] == "Quiz1")
+            if (weight >= 600 && weight <= 699)
+            {
+                AnswerA.text = $"{0.35f + weight}mm";
+                array = new string[] { $"{0.35f + weight}mm", $"{0.45f + weight}mm", $"{0.4f + weight}mm", $"{0.5f + weight}mm" };
+            }
+
+
+
+
+
+            //array = new string[] { $"{0.2f + weight}mm", $"{0.1f + weight}mm", $"{0.5f + weight}mm", $"{1f + weight}mm" };
+            array2 = array.OrderBy(a => Guid.NewGuid()).ToArray();
+            for (int i = 1; i <= array.Length; i++)
+            {
+                labels = GameObject.Find("Quiz/Answer" + i).GetComponentInChildren<Text>();
+                labels.text = array2[i - 1];
+            }
+        }
+
+        //ここからが本題
+
+        if (questionList[questionIndex] == "Quiz1")
             {
                  QuestionNumber.text = "Quiz1" ;
                 seigyo = true;
@@ -495,8 +530,27 @@ public class QuizPrototype : MonoBehaviour {
             }
             if (questionList[questionIndex] == "Quiz22")
             {
-            QuestionNumber.text = "Quiz22";
-            Question22();
+                QuestionNumber.text = "Quiz22";
+                
+
+                Questionlabel.text = $"図に示す、基準穴又は基準マークからフットプリントまでの位置(j1)(j2)の許容差はプリント板長手寸法{weight}mmの場合何mmか？";
+                if (weight >= 400 && weight <= 499)
+                {
+                    AnswerA.text = $"{0.25f + weight}mm";
+                    array = new string[] { $"{0.25f + weight}mm", $"{0.2f + weight}mm", $"{0.15f + weight}mm", $"{0.13f + weight}mm" };
+                }
+
+                if (weight >= 500 && weight <= 599)
+                {
+                    AnswerA.text = $"{0.30f + weight}mm";
+                    array = new string[] { $"{0.30f + weight}mm", $"{0.05f + weight}mm", $"{0.1f + weight}mm", $"{0.08f + weight}mm" };
+                }
+
+                if (weight >= 600 && weight <= 699)
+                {
+                    AnswerA.text = $"{0.35f + weight}mm";
+                    array = new string[] { $"{0.35f + weight}mm", $"{0.45f + weight}mm", $"{0.4f + weight}mm", $"{0.5f + weight}mm" };
+                }
                 ArrayButton();
             }
             if (questionList[questionIndex] == "Quiz23")
@@ -739,7 +793,7 @@ public class QuizPrototype : MonoBehaviour {
     void Question19() { AnswerA.text = "0.05"; Questionlabel.text = "図に示す、ランドと穴とのズレに起因する最小ランド幅(w)は部品挿入穴で部品面の場合何mm?"; array = new string[] {Quiz19, "0.04", "0.03", "0.02" }; }
     void Question20() { AnswerA.text = "0.02"; Questionlabel.text = "図に示す、ランドと穴とのズレに起因する最小ランド幅(w)は導通穴の場合何mm?"; array = new string[] {Quiz20, "0.03", "0.04", "0.05" }; }
     void Question21() { AnswerA.text = "0.02"; Questionlabel.text = "図に示す、基準穴又は基準マークからフットプリントまでの位置(j1)(j2)の許容差はプリント板長手寸法400mm以下の場合何mmか？"; array = new string[] {Quiz21, "0.01", "0.03", "0.04" }; }
-    void Question22() { AnswerA.text = "400を超えるものは、100までの寸法増加ごとに0.05を加える"; Questionlabel.text = "図に示す、基準穴又は基準マークからフットプリントまでの位置(j1)(j2)の許容差はプリント板長手寸法400mm以下の場合何mmか？"; array = new string[] {Quiz22, "", "", "" }; }
+    //void Question22() { AnswerA.text = "400を超えるものは、100までの寸法増加ごとに0.05を加える"; Questionlabel.text = "図に示す、基準穴又は基準マークからフットプリントまでの位置(j1)(j2)の許容差はプリント板長手寸法400mm以下の場合何mmか？"; array = new string[] {Quiz22, "", "", "" }; }
     void Question23() { AnswerA.text = "±0.1"; Questionlabel.text = "プリントコンタクト(端子メッキ）の中心距離許容差は何mm"; array = new string[] {Quiz23, "±0.2", "±0.05", "±0.15" }; }
     void Question24() { AnswerA.text = "±0.05"; Questionlabel.text = "図に示すプリントコンタクトの端子幅(wt)が1.0mm未満の場合許容差は何mm?"; array = new string[] {Quiz24, "±0.1", "±0.15", "±0.20" }; }
     void Question25() { AnswerA.text = "±0.05"; Questionlabel.text = "図に示すプリントコンタクトの端子幅(wt)が1.0mm以下の場合許容差は何mm?"; array = new string[] {Quiz25, "±0.1", "±0.15", "±0.20" }; }
