@@ -86,6 +86,8 @@ public class QuizPrototype : MonoBehaviour {
 
     public float Lootweight2;
 
+    public float Lootweight3;
+
     bool seigyo;
 
 	
@@ -136,6 +138,8 @@ public class QuizPrototype : MonoBehaviour {
         weight = UnityEngine.Random.Range(400,700);
         Lootweight = UnityEngine.Random.Range(100, 299);
         Lootweight2 = UnityEngine.Random.Range(300, 499);
+        Lootweight3 = UnityEngine.Random.Range(500, 599);
+        
 
 		 
 		 //コンソールでweightの数字を出力
@@ -352,7 +356,7 @@ public class QuizPrototype : MonoBehaviour {
                 //}
             }
 
-        //問題4(修正する）
+        //問題実験サンプル１
         if (questionList[questionIndex] == "Quiz74")
         {
 
@@ -389,6 +393,48 @@ public class QuizPrototype : MonoBehaviour {
                 labels.text = array2[i - 1];
             }
         }
+
+        //問題実験サンプル2
+        if (questionList[questionIndex] == "Quiz75")
+        {
+
+            //Lootweight = UnityEngine.Random.Range(100, 299);
+
+            QuestionNumber.text = "Quiz75";
+
+            Questionlabel.text = $"外形寸法が{Lootweight}mmの場合何mmか？";
+            if (Lootweight >= 100 && weight <= 149)
+            {
+                AnswerA.text = $"{0.3f + Lootweight}mm";
+                array = new string[] { $"{0.3f + Lootweight}mm", $"{0.1f + Lootweight}mm", $"{0.05f + Lootweight}mm", $"{0.10f + Lootweight}mm" };
+            }
+
+            if (weight >= 150 && weight <= 199)
+            {
+                AnswerA.text = $"{0.40f + Lootweight}mm";
+                array = new string[] { $"{0.40f + Lootweight}mm", $"{0.25f + Lootweight}mm", $"{0.20f + Lootweight}mm", $"{0.15f + Lootweight}mm" };
+            }
+
+            if (weight >= 200 && weight <= 249)
+            {
+                AnswerA.text = $"{0.50f + weight}mm";
+                array = new string[] { $"{0.5f + weight}mm", $"{0.55f + weight}mm", $"{0.60f + weight}mm", $"{0.65f + weight}mm" };
+            }
+
+
+
+
+
+            //array = new string[] { $"{0.2f + weight}mm", $"{0.1f + weight}mm", $"{0.5f + weight}mm", $"{1f + weight}mm" };
+            array2 = array.OrderBy(a => Guid.NewGuid()).ToArray();
+            for (int i = 1; i <= array.Length; i++)
+            {
+                labels = GameObject.Find("Quiz/Answer" + i).GetComponentInChildren<Text>();
+                labels.text = array2[i - 1];
+            }
+        }
+
+
 
         //ここからが本題
 
