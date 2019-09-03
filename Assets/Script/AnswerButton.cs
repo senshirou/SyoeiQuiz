@@ -103,7 +103,8 @@ public class AnswerButton : MonoBehaviour
     {
         QuizNumber = GameObject.Find("QuizNumber").GetComponent<TextMeshProUGUI>();
         Quiztype = GameObject.Find("QuizPrototype").GetComponent<QuizPrototype>();
-        float weight = quiz.weight;
+        float weight = quiz.weight; //
+        float Lootweight = quiz.Lootweight;
         Debug.Log(weight);
         //collect = new string[]{"エッチング →　酸洗　→　フラックス","だめだ","Android",$"{0.2f + weight}mm",Quiz1, Quiz2,  Quiz3,  Quiz4,  Quiz5,  Quiz6,  Quiz7,  Quiz8,  Quiz9,  Quiz10, Quiz11, Quiz12, Quiz13, Quiz14, Quiz15, Quiz16, Quiz17, Quiz18, Quiz19, Quiz20, Quiz21, Quiz22, Quiz23, Quiz24, Quiz25, Quiz26, Quiz27, Quiz28, Quiz29, Quiz30, Quiz31, Quiz32, Quiz33, Quiz34, Quiz35, Quiz36, Quiz37, Quiz38, Quiz39, Quiz40, Quiz41, Quiz42, Quiz43, Quiz44, Quiz45, Quiz46, Quiz47, Quiz48, Quiz49, Quiz50, Quiz51, Quiz52, Quiz53};
     }
@@ -151,7 +152,9 @@ public class AnswerButton : MonoBehaviour
         if (QuizNumber.text == "Quiz19") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz19) { hantei = true; } }
         if (QuizNumber.text == "Quiz20") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz20) { hantei = true; } }
         if (QuizNumber.text == "Quiz21") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz21) { hantei = true; } }
-        if (QuizNumber.text == "Quiz22") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz22) { hantei = true; } }
+        if (QuizNumber.text == "Quiz22") { Debug.Log("HIT"); if (AnsButton.text == $"{0.25f + quiz.weight}mm") { hantei = true; } }
+        if (QuizNumber.text == "Quiz22") { Debug.Log("HIT"); if (AnsButton.text == $"{0.30f + quiz.weight}mm") { hantei = true; } }
+        if (QuizNumber.text == "Quiz22") { Debug.Log("HIT"); if (AnsButton.text == $"{0.35f + quiz.weight}mm") { hantei = true; } }
         if (QuizNumber.text == "Quiz23") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz23) { hantei = true; } }
         if (QuizNumber.text == "Quiz24") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz24) { hantei = true; } }
         if (QuizNumber.text == "Quiz25") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz25) { hantei = true; } }
@@ -176,16 +179,22 @@ public class AnswerButton : MonoBehaviour
         if (QuizNumber.text == "Quiz44") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz44) { hantei = true; } }
         if (QuizNumber.text == "Quiz45") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz45) { hantei = true; } }
         if (QuizNumber.text == "Quiz46") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz46) { hantei = true; } }
-        if (QuizNumber.text == "Quiz47") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz47) { hantei = true; } }
+        if (QuizNumber.text == "Quiz47") { Debug.Log("HIT"); if (AnsButton.text == $"±0.3") { hantei = true; } }
+        if (QuizNumber.text == "Quiz47") { Debug.Log("HIT"); if (AnsButton.text == $"±0.4") { hantei = true; } }
+        if (QuizNumber.text == "Quiz47") { Debug.Log("HIT"); if (AnsButton.text == $"±0.5") { hantei = true; } }
         if (QuizNumber.text == "Quiz48") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz48) { hantei = true; } }
         if (QuizNumber.text == "Quiz49") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz49) { hantei = true; } }
         if (QuizNumber.text == "Quiz50") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz50) { hantei = true; } }
         if (QuizNumber.text == "Quiz51") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz51) { hantei = true; } }
         if (QuizNumber.text == "Quiz52") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz52) { hantei = true; } }
         if (QuizNumber.text == "Quiz53") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz53) { hantei = true; } }
-        if (QuizNumber.text == "Quiz74") { Debug.Log("HIT"); if (AnsButton.text == $"{0.25f + quiz.weight}mm") { hantei = true; } }
-        if (QuizNumber.text == "Quiz74") { Debug.Log("HIT"); if (AnsButton.text == $"{0.30f + quiz.weight}mm") { hantei = true; } }
-        if (QuizNumber.text == "Quiz74") { Debug.Log("HIT"); if (AnsButton.text == $"{0.35f + quiz.weight}mm") { hantei = true; } }
+        if (QuizNumber.text == "Quiz54") { Debug.Log("HIT"); if (AnsButton.text == $"±0.6") { hantei = true; } }
+        if (QuizNumber.text == "Quiz54") { Debug.Log("HIT"); if (AnsButton.text == $"±0.7") { hantei = true; } }
+        if (QuizNumber.text == "Quiz54") { Debug.Log("HIT"); if (AnsButton.text == $"±0.8") { hantei = true; } }
+        if (QuizNumber.text == "Quiz54") { Debug.Log("HIT"); if (AnsButton.text == $"±0.9") { hantei = true; } }
+        if (QuizNumber.text == "Quiz54") { Debug.Log("HIT"); if (AnsButton.text == $"±1.0") { hantei = true; } }
+        if (QuizNumber.text == "Quiz55") { Debug.Log("HIT"); if (AnsButton.text == $"±1.1") { hantei = true; } }
+        if (QuizNumber.text == "Quiz55") { Debug.Log("HIT"); if (AnsButton.text == $"±1.2") { hantei = true; } }
 
 
 

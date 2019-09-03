@@ -789,8 +789,13 @@ MonoBehaviour:
   - Quiz51
   - Quiz52
   - Quiz53
+  - Quiz54
+  - Quiz55
   questionIndex: 0
   weight: 0
+  Lootweight: 0
+  Lootweight2: 0
+  Lootweight3: 0
   Questionlabel: {fileID: 1686096536}
   AnswerA: {fileID: 775843255}
   QuestionNumber: {fileID: 1569132165}

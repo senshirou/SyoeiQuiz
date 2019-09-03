@@ -402,23 +402,23 @@ public class QuizPrototype : MonoBehaviour {
 
             QuestionNumber.text = "Quiz75";
 
-            Questionlabel.text = $"外形寸法が{Lootweight}mmの場合何mmか？";
-            if (Lootweight >= 100 && weight <= 149)
+            Questionlabel.text = $"外形寸法が{Lootweight}mmの場合許容差は何mmか？";
+            if (Lootweight >= 250 && Lootweight <= 299)
             {
-                AnswerA.text = $"{0.3f + Lootweight}mm";
-                array = new string[] { $"{0.3f + Lootweight}mm", $"{0.1f + Lootweight}mm", $"{0.05f + Lootweight}mm", $"{0.10f + Lootweight}mm" };
+                AnswerA.text = $"±0.6";
+                array = new string[] { $"±0.6", $"±0.5", $"±0.4", $"±0.45" };
             }
 
-            if (weight >= 150 && weight <= 199)
+            if (Lootweight >= 300 && Lootweight <= 349)
             {
-                AnswerA.text = $"{0.40f + Lootweight}mm";
-                array = new string[] { $"{0.40f + Lootweight}mm", $"{0.25f + Lootweight}mm", $"{0.20f + Lootweight}mm", $"{0.15f + Lootweight}mm" };
+                AnswerA.text = $"±0.7";
+                array = new string[] { $"±0.7", $"±0.55", $"±0.30", $"±0.65" };
             }
 
-            if (weight >= 200 && weight <= 249)
+            if (Lootweight >= 350 && Lootweight <= 399)
             {
-                AnswerA.text = $"{0.50f + weight}mm";
-                array = new string[] { $"{0.5f + weight}mm", $"{0.55f + weight}mm", $"{0.60f + weight}mm", $"{0.65f + weight}mm" };
+                AnswerA.text = $"±0.8";
+                array = new string[] { $"±0.8", $"±0.75", $"±0.9", $"±1.0" };
             }
 
 
@@ -743,12 +743,40 @@ public class QuizPrototype : MonoBehaviour {
                 Question46();
                 ArrayButton();
             }
+
             if (questionList[questionIndex] == "Quiz47")
             {
-                QuestionNumber.text = "Quiz47";
-                Question47();
+            //Lootweight = UnityEngine.Random.Range(100, 299);
+
+            QuestionNumber.text = "Quiz47";
+
+            Questionlabel.text = $"外形寸法が{Lootweight}mmの場合許容差は何mmか？";
+            if (Lootweight >= 100 && Lootweight <= 149)
+            {
+                AnswerA.text = $"±0.3";
+                array = new string[] { $"±0.3", $"±0.2", $"±0.05", $"±0.1" };
+            }
+
+            if (Lootweight >= 150 && Lootweight <= 199)
+            {
+                AnswerA.text = $"±0.4";
+                array = new string[] { $"±0.4", $"±0.25", $"±0.15", $"±0.35" };
+            }
+
+            if (Lootweight >= 200 && Lootweight <= 249)
+            {
+                AnswerA.text = $"±0.5";
+                array = new string[] { $"±0.5", $"±0.6", $"±0.7", $"±0.45" };
+            }
+
+            if (Lootweight >= 250 && Lootweight <= 299)
+            {
+                AnswerA.text = $"±0.6";
+                array = new string[] { $"±0.6", $"±0.5", $"±0.4", $"±0.45" };
+            }
                 ArrayButton();
             }
+
             if (questionList[questionIndex] == "Quiz48")
             {
                 QuestionNumber.text = "Quiz48";
@@ -785,7 +813,62 @@ public class QuizPrototype : MonoBehaviour {
                 Question53();
                 ArrayButton();
             }
-            
+
+        if (questionList[questionIndex] == "Quiz54")
+        {
+            QuestionNumber.text = "Quiz54";
+
+            Questionlabel.text = $"外形寸法が{Lootweight2}mmの場合許容差は何mmか？";
+
+            if (Lootweight2 >= 300 && Lootweight2 <= 349)
+            {
+                AnswerA.text = $"±0.7";
+                array = new string[] { $"±0.7", $"±0.55", $"±0.30", $"±0.65" };
+            }
+
+            if (Lootweight2 >= 350 && Lootweight2 <= 399)
+            {
+                AnswerA.text = $"±0.8";
+                array = new string[] { $"±0.8", $"±0.75", $"±0.9", $"±1.0" };
+            }
+
+            if (Lootweight2 >= 400 && Lootweight2 <= 449)
+            {
+                AnswerA.text = $"±0.9";
+                array = new string[] { $"±0.9", $"±0.75", $"±0.9", $"±1.0" };
+            }
+
+            if (Lootweight2 >= 450 && Lootweight2 <= 499)
+            {
+                AnswerA.text = $"±1.0";
+                array = new string[] { $"±1.0", $"±1.1", $"±1.2", $"±1.3" };
+            }
+
+            ArrayButton();
+        }
+
+        if (questionList[questionIndex] == "Quiz55")
+        {
+            QuestionNumber.text = "Quiz55";
+
+            Questionlabel.text = $"外形寸法が{Lootweight3}mmの場合許容差は何mmか？";
+
+            if (Lootweight3 >= 500 && Lootweight3 <= 549)
+            {
+                AnswerA.text = $"±1.1";
+                array = new string[] { $"±1.1", $"±0.95", $"±0.90", $"±1.0" };
+            }
+
+            if (Lootweight3 >= 550 && Lootweight3 <= 599)
+            {
+                AnswerA.text = $"±1.2";
+                array = new string[] { $"±1.2", $"±0.8", $"±1.3", $"±1.5" };
+            }
+
+
+            ArrayButton();
+        }
+
 
 
 
@@ -864,7 +947,7 @@ public class QuizPrototype : MonoBehaviour {
     void Question44() { AnswerA.text = "文字、記号のかすれ、にじみはあってはならない"; Questionlabel.text = "シンボルの規格で間違っているのはどれ？"; array = new string[] {Quiz44, "社章・ロゴ等のかすれにじみはあってはならない", "文字・記号及びかすれ、消えは修正を容認する。", "シルクのずれは実用上支障を及ぼさない範囲であること。" }; }
     void Question45() { AnswerA.text = "0.8μ"; Questionlabel.text = "半田・鉛フリー半田の厚みに規定は無いが狙いとしは最小何μ以上か。"; array = new string[] {Quiz45, "1μ", "1.5μ", "3μ" }; }
     void Question46() { AnswerA.text = "±0.2"; Questionlabel.text = "外形寸法が100mm未満の許容差(mm)は?"; array = new string[] {Quiz46, "±0.1", "±0.4", "±0.3" }; }
-    void Question47() { AnswerA.text = "ランダム問題の為現在作成中"; array = new string[] {Quiz47, "", "", "" }; }
+    //void Question47() { AnswerA.text = "ランダム問題の為現在作成中"; array = new string[] {Quiz47, "", "", "" }; }
     void Question48() { AnswerA.text = "6.0"; Questionlabel.text = "ルーター加工の丸穴は何mm以上が加工範囲か"; array = new string[] {Quiz48, "5.5", "6.05", "5.55" }; }
     void Question49() { AnswerA.text = "0.4"; Questionlabel.text = "VカットはV溝中心からパターンまでの必要距離は何mmか？"; array = new string[] {Quiz49, "0.2", "0.3", "0.5" }; }
     void Question50() { AnswerA.text = "3ヶ月"; Questionlabel.text = "プリフラックス製品の推奨保管期限はいくつか？"; array = new string[] {Quiz50, "6ヶ月", "9ヶ月", "1ヶ月" }; }
