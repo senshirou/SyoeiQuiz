@@ -61,7 +61,9 @@ public class QuizPrototype : MonoBehaviour {
     public string Quiz51 = "6ヶ月";
     public string Quiz52 = "ベーキング処理して再フラックス";
     public string Quiz53 = "ベーキング処理";
-    
+    public string Quiz56 = "あってはならない";
+    public string Quiz57 = "(X):①0.2②0.5      (Y):①0.1②0.5\n (Z):①0.2②0.2";
+
 
 
 
@@ -124,9 +126,14 @@ public class QuizPrototype : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+        //製品寸法1の乱数
+        weight = UnityEngine.Random.Range(400, 700);
+        Lootweight = UnityEngine.Random.Range(100, 299);
+        Lootweight2 = UnityEngine.Random.Range(300, 499);
+        Lootweight3 = UnityEngine.Random.Range(500, 599);
 
-		//リストをシャッフルする
-		 questionList = questionList.OrderBy ( a => Guid.NewGuid () ).ToList ();
+        //リストをシャッフルする
+        questionList = questionList.OrderBy ( a => Guid.NewGuid () ).ToList ();
 
         //AnswerButtonの配列を取得
         Quiz = GameObject.Find("Answer1").GetComponent<AnswerButton>();
@@ -134,11 +141,7 @@ public class QuizPrototype : MonoBehaviour {
         //stage1()を実行
         stage1();
 
-        //製品寸法1の乱数
-        weight = UnityEngine.Random.Range(400,700);
-        Lootweight = UnityEngine.Random.Range(100, 299);
-        Lootweight2 = UnityEngine.Random.Range(300, 499);
-        Lootweight3 = UnityEngine.Random.Range(500, 599);
+        
         
 
 		 
@@ -395,37 +398,17 @@ public class QuizPrototype : MonoBehaviour {
         }
 
         //問題実験サンプル2
-        if (questionList[questionIndex] == "Quiz75")
+        if (questionList[questionIndex] == "Quiz74")
         {
 
             //Lootweight = UnityEngine.Random.Range(100, 299);
 
-            QuestionNumber.text = "Quiz75";
+            QuestionNumber.text = "Quiz56";
 
-            Questionlabel.text = $"外形寸法が{Lootweight}mmの場合許容差は何mmか？";
-            if (Lootweight >= 250 && Lootweight <= 299)
-            {
-                AnswerA.text = $"±0.6";
-                array = new string[] { $"±0.6", $"±0.5", $"±0.4", $"±0.45" };
-            }
-
-            if (Lootweight >= 300 && Lootweight <= 349)
-            {
-                AnswerA.text = $"±0.7";
-                array = new string[] { $"±0.7", $"±0.55", $"±0.30", $"±0.65" };
-            }
-
-            if (Lootweight >= 350 && Lootweight <= 399)
-            {
-                AnswerA.text = $"±0.8";
-                array = new string[] { $"±0.8", $"±0.75", $"±0.9", $"±1.0" };
-            }
-
-
-
-
-
-            //array = new string[] { $"{0.2f + weight}mm", $"{0.1f + weight}mm", $"{0.5f + weight}mm", $"{1f + weight}mm" };
+            Questionlabel.text = "プリントコンタクト部の下地ニッケル・メッキはがれ・剥離・変色についての許容数は？";
+            
+                AnswerA.text = "あってはならない";
+                array = new string[] {Quiz56,"1個","2個","3個" };
             array2 = array.OrderBy(a => Guid.NewGuid()).ToArray();
             for (int i = 1; i <= array.Length; i++)
             {
@@ -866,6 +849,32 @@ public class QuizPrototype : MonoBehaviour {
             }
 
 
+            ArrayButton();
+        }
+
+        if (questionList[questionIndex] == "Quiz56")
+        {
+
+            
+
+            QuestionNumber.text = "Quiz56";
+
+            Questionlabel.text = "プリントコンタクト部の下地ニッケル・メッキはがれ・剥離・変色についての許容数は?";
+
+            AnswerA.text = "あってはならない";
+            array = new string[] { Quiz56, "1個", "2個", "3個" };
+            ArrayButton();
+        }
+
+        if (questionList[questionIndex] == "Quiz57")
+        {
+            //3課
+            QuestionNumber.text = "Quiz57";
+
+            Questionlabel.text = "プリントコンタクト部①②の各項目の許容範囲は？\n打痕:(X)mm未満\nキズ:幅(Y)mm未満\nこぶ状の突起:(Z):(X)mm未満\n";
+
+            AnswerA.text = "(X):①0.2②0.5 (Y):①0.1②0.5 (Z):①0.2②0.2";
+            array = new string[] { "(X):①0.2②0.5      (Y):①0.1②0.5\n (Z):①0.2②0.2", "(X):①0.2②0.5      (Y):①0.2②0.5\n (Z):①0.2②0.1", "(X):①0.2②0.2      (Y):①0.2②0.5\n (Z):①0.3②0.3", "(X):①0.2②0.2      (Y):①0.2②0.5\n (Z):①0.2②0.2" };
             ArrayButton();
         }
 

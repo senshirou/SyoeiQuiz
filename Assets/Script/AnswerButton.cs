@@ -195,6 +195,8 @@ public class AnswerButton : MonoBehaviour
         if (QuizNumber.text == "Quiz54") { Debug.Log("HIT"); if (AnsButton.text == $"±1.0") { hantei = true; } }
         if (QuizNumber.text == "Quiz55") { Debug.Log("HIT"); if (AnsButton.text == $"±1.1") { hantei = true; } }
         if (QuizNumber.text == "Quiz55") { Debug.Log("HIT"); if (AnsButton.text == $"±1.2") { hantei = true; } }
+        if (QuizNumber.text == "Quiz56") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz56) { hantei = true; } }
+        if (QuizNumber.text == "Quiz56") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz57) { hantei = true; } }
 
 
 
