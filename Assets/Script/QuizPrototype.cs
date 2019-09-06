@@ -62,7 +62,7 @@ public class QuizPrototype : MonoBehaviour {
     public string Quiz52 = "ベーキング処理して再フラックス";
     public string Quiz53 = "ベーキング処理";
     public string Quiz56 = "あってはならない";
-    public string Quiz57 = "(X):①0.2②0.5      (Y):①0.1②0.5\n (Z):①0.2②0.2";
+    public string Quiz57 = "(X):1_0.2 2_0.5      (Y):1_0.1 2_0.5\n (Z):1_0.2 2_0.2";
 
 
 
@@ -871,10 +871,10 @@ public class QuizPrototype : MonoBehaviour {
             //3課
             QuestionNumber.text = "Quiz57";
 
-            Questionlabel.text = "プリントコンタクト部①②の各項目の許容範囲は？\n打痕:(X)mm未満\nキズ:幅(Y)mm未満\nこぶ状の突起:(Z):(X)mm未満\n";
+            Questionlabel.text = "プリントコンタクト部①②(1_2_と表記)の各項目の許容範囲は？\n打痕:(X)mm未満\nキズ:幅(Y)mm未満\nこぶ状の突起S:(Z)mm未満\n";
 
-            AnswerA.text = "(X):①0.2②0.5 (Y):①0.1②0.5 (Z):①0.2②0.2";
-            array = new string[] { "(X):①0.2②0.5      (Y):①0.1②0.5\n (Z):①0.2②0.2", "(X):①0.2②0.5      (Y):①0.2②0.5\n (Z):①0.2②0.1", "(X):①0.2②0.2      (Y):①0.2②0.5\n (Z):①0.3②0.3", "(X):①0.2②0.2      (Y):①0.2②0.5\n (Z):①0.2②0.2" };
+            AnswerA.text = "(X):1_0.2 2_0.5 (Y):1_0.1 2_0.5 (Z):1_0.2 2_0.2";
+            array = new string[] { "(X):1_0.2 2_0.5      (Y):1_0.1 2_0.5\n (Z):1_0.2 2_0.2", "(X):1_0.2 2_0.5      (Y):1_0.2 2_0.5\n (Z):1_0.2 2_0.1", "(X):1_0.2 2_0.2      (Y):1_0.2 2_0.5\n (Z):1_0.3 2_0.3", "(X):1_0.2 2_0.2      (Y):1_0.2 2_0.5\n (Z):1_0.2 2_0.2" };
             ArrayButton();
         }
 
