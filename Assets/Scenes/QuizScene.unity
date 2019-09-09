@@ -735,6 +735,8 @@ MonoBehaviour:
   Quiz51: "6\u30F6\u6708"
   Quiz52: "\u30D9\u30FC\u30AD\u30F3\u30B0\u51E6\u7406\u3057\u3066\u518D\u30D5\u30E9\u30C3\u30AF\u30B9"
   Quiz53: "\u30D9\u30FC\u30AD\u30F3\u30B0\u51E6\u7406"
+  Quiz56: "\u3042\u3063\u3066\u306F\u306A\u3089\u306A\u3044"
+  Quiz57: "(X):\u24600.2\u24610.5      (Y):\u24600.1\u24610.5\n (Z):\u24600.2\u24610.2"
   questionList:
   - Quiz1
   - Quiz2
@@ -769,8 +771,8 @@ MonoBehaviour:
   - Quiz31
   - Quiz32
   - Quiz33
-  - Quiz34
-  - Quiz35
+  - Quiz56
+  - Quiz57
   - Quiz36
   - Quiz37
   - Quiz38
@@ -2183,6 +2185,49 @@ RectTransform:
   m_AnchoredPosition: {x: -261.25, y: 661}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1876807810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1876807812}
+  - component: {fileID: 1876807811}
+  m_Layer: 0
+  m_Name: ScoreManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1876807811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876807810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4ecf59e988d1b64baa0ae85567d9949, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1876807812
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1876807810}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 95.75909, y: 177.13138, z: -6.5924077}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1997529189
 GameObject:
   m_ObjectHideFlags: 0
