@@ -1,9 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
+    int Score;
+    [SerializeField] TextMeshProUGUI ScoreText;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +18,15 @@ public class ScoreManager : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void Maru(int seikai)
+    {
+        //正解は10点
+        Score += seikai;
+        ScoreText.text = Score.ToString();
+
+        
+
     }
 }
