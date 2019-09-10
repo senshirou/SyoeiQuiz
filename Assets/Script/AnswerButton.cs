@@ -17,6 +17,7 @@ public class AnswerButton : MonoBehaviour
     [SerializeField] QuizPrototype  quiz;
 
     [SerializeField] TextMeshProUGUI AnswerA;
+    [SerializeField] ScoreManager Scm;
 
     TextMeshProUGUI QuizNumber;
 
@@ -247,6 +248,7 @@ public class AnswerButton : MonoBehaviour
     void Answermaru()
     {
         maru.enabled = true;
+        Scm.Maru(10);
         Buttonfalse();
         Invoke("NextQuiz",2f);
         
