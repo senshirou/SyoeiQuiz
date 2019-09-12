@@ -73,7 +73,7 @@ public class ImageControl : MonoBehaviour
             ImageScale255();
             sprite = Resources.Load<Sprite>("Question21_22");
             size.sizeDelta = new Vector2(436f,195f);
-            size.position = new Vector2(100.3f, 173.4f);
+            transform.position = new Vector2(172.9f,400.3f);
         }
 
         else if (QuizNumber.text == "Quiz24" || QuizNumber.text == "Quiz25")
@@ -97,7 +97,7 @@ public class ImageControl : MonoBehaviour
             ImageScale255();
             sprite = Resources.Load<Sprite>("Question27_28_29");
             size.sizeDelta = new Vector2(697.7f,150.6f);
-            size.position = new Vector2(82.9f, 195.0f);
+            transform.position = new Vector2(172.9f,400.3f);
 
         }
 
@@ -106,7 +106,7 @@ public class ImageControl : MonoBehaviour
             ImageScale255();
             sprite = Resources.Load<Sprite>("Question30_31");
             size.sizeDelta = new Vector2(697.7f, 150.6f);
-            size.position = new Vector2(82.9f, 185.0f);
+            transform.position = new Vector2(172.9f,380.3f);
 
         }
 
@@ -123,7 +123,7 @@ public class ImageControl : MonoBehaviour
             ImageScale255();
             sprite = Resources.Load<Sprite>("Question32_33");
             size.sizeDelta = new Vector2(697.7f, 150.6f);
-            size.position = new Vector2(82.9f, 185.0f);
+            transform.position = new Vector2(172.9f,400.3f);
 
         }
 
@@ -156,7 +156,8 @@ public class ImageControl : MonoBehaviour
             ImageScale255();
             sprite = Resources.Load<Sprite>("Question39");
             size.sizeDelta = new Vector2(242.5f, 266.5f);
-            size.position = new Vector2(82.9f, 195.9f);
+            transform.position = new Vector2(172.9f,400.3f);
+
 
 
         }
@@ -166,7 +167,8 @@ public class ImageControl : MonoBehaviour
             ImageScale255();
             sprite = Resources.Load<Sprite>("Question42_43");
             size.sizeDelta = new Vector2(242.5f, 266.5f);
-            size.position = new Vector2(82.9f, 195.9f);
+            transform.position = new Vector2(172.9f,400.3f);
+
 
 
         }
@@ -184,8 +186,7 @@ public class ImageControl : MonoBehaviour
         else
         {
             GetComponent<Image>().color = new Color32(255, 255, 255, 0);
-            size.position = new Vector2(82.9f, 205.9f);
-
+            transform.position = new Vector2(172.9f,419.3f);
 
         }
 
@@ -197,7 +198,7 @@ public class ImageControl : MonoBehaviour
     {
         QuizImage.sprite = sprite;
         GetComponent<Image>().color = new Color32(255, 255, 255, 255);
-        size.position = new Vector2(82.9f, 205.9f);
+        transform.position = new Vector2(172.9f,419.3f);
 
     }
 
