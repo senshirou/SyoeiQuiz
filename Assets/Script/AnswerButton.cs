@@ -21,6 +21,14 @@ public class AnswerButton : MonoBehaviour
 
     TextMeshProUGUI QuizNumber;
 
+    //正解・不正解の音声
+    [SerializeField] AudioClip MaruS;
+
+    [SerializeField] AudioClip BatuS;
+
+    AudioSource HanteiS;
+
+    //解答
     string Quiz1 = "±0.1";
     string Quiz2 = "±0.1";
     string Quiz3 = "±0.08";
@@ -107,6 +115,9 @@ public class AnswerButton : MonoBehaviour
         float weight = quiz.weight; //
         float Lootweight = quiz.Lootweight;
         Debug.Log(weight);
+        HanteiS = GetComponent<AudioSource>();
+        
+        
         //collect = new string[]{"エッチング →　酸洗　→　フラックス","だめだ","Android",$"{0.2f + weight}mm",Quiz1, Quiz2,  Quiz3,  Quiz4,  Quiz5,  Quiz6,  Quiz7,  Quiz8,  Quiz9,  Quiz10, Quiz11, Quiz12, Quiz13, Quiz14, Quiz15, Quiz16, Quiz17, Quiz18, Quiz19, Quiz20, Quiz21, Quiz22, Quiz23, Quiz24, Quiz25, Quiz26, Quiz27, Quiz28, Quiz29, Quiz30, Quiz31, Quiz32, Quiz33, Quiz34, Quiz35, Quiz36, Quiz37, Quiz38, Quiz39, Quiz40, Quiz41, Quiz42, Quiz43, Quiz44, Quiz45, Quiz46, Quiz47, Quiz48, Quiz49, Quiz50, Quiz51, Quiz52, Quiz53};
     }
 
@@ -114,7 +125,7 @@ public class AnswerButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(Quiztype.questionIndex);
+        
         
     }
 
@@ -122,6 +133,7 @@ public class AnswerButton : MonoBehaviour
     //クイズ解答部分
     public void QuizAns()
     {
+        Debug.Log(Quiztype.questionIndex);
         //判定をfalseにする
         bool hantei = false;
 
@@ -239,6 +251,8 @@ public class AnswerButton : MonoBehaviour
     {
         batu.enabled = true;
         AnswerA.enabled = true;
+        HanteiS.clip = BatuS;
+        HanteiS.Play();
         Buttonfalse();
         Invoke("NextQuiz",2f);
         
@@ -248,6 +262,8 @@ public class AnswerButton : MonoBehaviour
     void Answermaru()
     {
         maru.enabled = true;
+        HanteiS.clip = MaruS;
+        HanteiS.Play();
         Scm.Maru(10);
         Buttonfalse();
         Invoke("NextQuiz",2f);

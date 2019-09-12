@@ -261,6 +261,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1692807491545019540, guid: cb8adf9f1d8e09a4aba717190a00c2a3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1692807491635652276, guid: cb8adf9f1d8e09a4aba717190a00c2a3,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1692807491635652275, guid: cb8adf9f1d8e09a4aba717190a00c2a3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1692807491635652274, guid: cb8adf9f1d8e09a4aba717190a00c2a3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1692807490284677774, guid: cb8adf9f1d8e09a4aba717190a00c2a3,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -291,6 +311,11 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1692807490878729251, guid: cb8adf9f1d8e09a4aba717190a00c2a3,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1692807490939070916, guid: cb8adf9f1d8e09a4aba717190a00c2a3,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -300,6 +325,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1692807491183802479, guid: cb8adf9f1d8e09a4aba717190a00c2a3,
+        type: 3}
+      propertyPath: questionList.Array.size
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb8adf9f1d8e09a4aba717190a00c2a3, type: 3}
