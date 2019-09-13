@@ -115,6 +115,8 @@ public class QuizPrototype : MonoBehaviour {
     //問題イメージ
     [SerializeField] Image QuizImage;
 
+    [SerializeField] GameObject ResultControl;
+
     AnswerButton Quiz;
 
 
@@ -258,7 +260,7 @@ public class QuizPrototype : MonoBehaviour {
         
         if (questionIndex == questionList.Count)
 			{
-                
+                ResultControl.SetActive(true);
 				//問題が残っていない場合は処理を行わない
 				Debug.Log("NoQuestion List");
 				
