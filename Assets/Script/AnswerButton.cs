@@ -264,7 +264,7 @@ public class AnswerButton : MonoBehaviour
         maru.enabled = true;
         HanteiS.clip = MaruS;
         HanteiS.Play();
-        Scm.Maru(10);
+        Scm.Maru(1);
         Buttonfalse();
         Invoke("NextQuiz",2f);
         
