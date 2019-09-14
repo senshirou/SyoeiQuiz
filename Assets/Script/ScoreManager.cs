@@ -5,7 +5,7 @@ using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
-    int Score;
+    public int Score;
     [SerializeField] TextMeshProUGUI ScoreText;
 
     // Start is called before the first frame update
@@ -24,7 +24,7 @@ public class ScoreManager : MonoBehaviour
     {
         //正解は10点
         Score += seikai;
-        ScoreText.text = Score.ToString();
+        //ScoreText.text = Score.ToString();
 
         
 

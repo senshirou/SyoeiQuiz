@@ -119,6 +119,8 @@ public class QuizPrototype : MonoBehaviour {
 
     AnswerButton Quiz;
 
+    TotalScore TScore;
+
 
     
 
@@ -142,6 +144,8 @@ public class QuizPrototype : MonoBehaviour {
 
         //AnswerButtonの配列を取得
         Quiz = GameObject.Find("Answer1").GetComponent<AnswerButton>();
+
+        
 
         //stage1()を実行
         stage1();
