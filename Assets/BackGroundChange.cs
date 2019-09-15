@@ -6,12 +6,12 @@ using UnityEngine.UI;
 public class BackGroundChange : MonoBehaviour
 {
     //背景イメージの宣言
-    [SerializeField] Image background;
-    [SerializeField] Sprite forest;
-    [SerializeField] Sprite Starrysky;
-    [SerializeField] Sprite Sand;
+    
+    
+    [SerializeField] GameObject Starrysky;
+    
     //Set this in the Inspector
-    [SerializeField] Sprite Sakura;
+    [SerializeField] GameObject Sakura;
 
     void Start()
     {
@@ -24,25 +24,23 @@ public class BackGroundChange : MonoBehaviour
     //桜に変更
     public void SakuraChange()
     {
-        background.sprite = Sakura;
+        Sakura.SetActive(true);
+        Starrysky.SetActive(false);
+        
     }
     //空に変更
-    public void SkyChange()
-    {
-        background.sprite = forest;
-    }
+    
 
     //空に変更
     public void StarryskyChange()
     {
-        background.sprite = Starrysky;
+        Sakura.SetActive(false);
+        Starrysky.SetActive(true);
+        
     }
 
     //空に変更
-    public void SandChange()
-    {
-        background.sprite = Sand;
-    }
+    
 
     
 
