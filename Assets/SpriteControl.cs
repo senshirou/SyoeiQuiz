@@ -22,7 +22,7 @@ public class SpriteControl : MonoBehaviour
         if (QuizNumber.text == "Quiz3" || QuizNumber.text == "Quiz4" || QuizNumber.text == "Quiz5")
         {
             StandardPosition();
-            transform.localScale = new Vector2(1.5f,1.5f);
+            transform.localScale = new Vector2(1.3f,1.3f);
             sp.sprite = Resources.Load<Sprite>("Question3_4png");
         }
 
@@ -50,21 +50,24 @@ public class SpriteControl : MonoBehaviour
 
          else if (QuizNumber.text == "Quiz14" || QuizNumber.text == "Quiz15")
         {
-            StandardPosition();
+            
             sp.sprite = Resources.Load<Sprite>("Question14_15");
+            transform.position = new Vector3(-0.03f,1.59f,0.8827f);
+            transform.localScale = new Vector2(0.8f,0.8f);
         }
 
         else if (QuizNumber.text == "Quiz18" || QuizNumber.text == "Quiz19" || QuizNumber.text == "Quiz20")
         {
-            StandardPosition();
+            transform.position = new Vector3(-0.03f,1.56f,0.8827f);
             sp.sprite = Resources.Load<Sprite>("Question18_19_20");
-            transform.localScale = new Vector2(0.8f,0.8f);
+            transform.localScale = new Vector2(0.6f,0.6f);
         }
 
         else if (QuizNumber.text == "Quiz21" || QuizNumber.text == "Quiz22")
         {
             sp.sprite = Resources.Load<Sprite>("Question21_22");
-            transform.position = new Vector3(-0.03f,1.49f,0.8827f);
+            transform.position = new Vector3(-0.03f,1.30f,0.8827f);
+            transform.localScale = new Vector2(0.6f,0.6f);
         }
 
         else if (QuizNumber.text == "Quiz24" || QuizNumber.text == "Quiz25")
@@ -92,6 +95,7 @@ public class SpriteControl : MonoBehaviour
         {
             sp.sprite = Resources.Load<Sprite>("Question30_31");
             transform.position = new Vector3(-0.03f,0.88f,0.8827f);
+            transform.localScale = new Vector2(0.6f,0.6f);
 
         }
 
@@ -103,8 +107,9 @@ public class SpriteControl : MonoBehaviour
 
         else if (QuizNumber.text == "Quiz33")
         {
-            StandardPosition();
+            
             sp.sprite = Resources.Load<Sprite>("Question32_33");
+            transform.position = new Vector3(-0.03f,1.36f,0.8827f);
         }
 
         else if (QuizNumber.text == "Quiz37")
