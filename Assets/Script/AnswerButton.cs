@@ -209,7 +209,7 @@ public class AnswerButton : MonoBehaviour
         if (QuizNumber.text == "Quiz55") { Debug.Log("HIT"); if (AnsButton.text == $"±1.1") { hantei = true; } }
         if (QuizNumber.text == "Quiz55") { Debug.Log("HIT"); if (AnsButton.text == $"±1.2") { hantei = true; } }
         if (QuizNumber.text == "Quiz56") { Debug.Log("HIT"); if (AnsButton.text == Quiztype.Quiz56) { hantei = true; } }
-        if (QuizNumber.text == "Quiz57") { Debug.Log("HIT"); if (AnsButton.text == "(X):1_0.2 2_0.5      (Y):1_0.1 2_0.5\n (Z):1_0.2 2_0.2") { hantei = true; } }
+        if (QuizNumber.text == "Quiz57") { Debug.Log("HIT"); if (AnsButton.text == "(X) 1:0.2 2:0.5      (Y) 1:0.1 2:0.5\n (Z) 1:0.2 2:0.2") { hantei = true; } }
 
 
 
